@@ -1,0 +1,14 @@
+type: Liquid
+name: Oxygen
+description: "A reactive gas required for combustion and advanced metallurgy. Also used in conjunction with hydrogen for powerful thruster fuel."
+color: F054E5FF
+gas: true
+
+explosiveness: 0.7
+flammability: 0.6
+heatCapacity: 0
+viscosity: 0.1
+temperature: 0
+blockReactive: false
+
+parent: a-b-02-liquid-iron

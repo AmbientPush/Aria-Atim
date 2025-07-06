@@ -1,0 +1,5 @@
+type: Floor
+variants: 1
+allowCorePlacement: true
+name: Ruins Core Zone
+layer: 100

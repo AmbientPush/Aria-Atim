@@ -1,0 +1,43 @@
+generator: "StarMesh"
+description: Where Velmirah blazes like judgment, Solenya glows like prophecy. It is the quiet flame, veiled in soft gold and singing with ancient hymns no mortal tongue can fully grasp. The faithful say Solenya does not speak in words, but in visions—dreams cast into the minds of seers and oracles. Legends claim Solenya was the first to rise from the Breath of Velmirah, a daughter-star born not of fire, but of divine purpose. Her light weaves through time, guiding lost worlds and calling chosen ones toward forgotten destinies. To follow Solenya’s path is to walk between shadow and grace, listening not with ears—but with the soul.
+
+mesh: [
+    {
+    //idk what I'm doing pls help me
+    type: NoiseMesh
+    planet: Erekir
+    divisions: 6
+    seed: 5
+    radius: 0.88
+    color1: FFD700
+    color2: F0C050
+    octaves: 0
+    persistence: 0
+    }
+]
+
+radius: 1.2
+startSector: 0
+sectorSize: 2
+
+orbitRadius: 200
+orbitOffset: 18
+
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+
+hasAtmosphere: true
+
+accessible: true
+visible: true
+alwaysUnlocked: true
+
+updateLighting: true
+bloom: true
+
+parent: velmirah
+solarSystem: velmirah
+tidalLock: false
+orbitSpacing: 1

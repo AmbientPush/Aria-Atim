@@ -1,0 +1,61 @@
+name: Charge
+type: mech
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+hovering: true
+hoverable: true
+omniMovement: true
+faceTarget: false
+health: 875
+armor: 4
+hitSize: 8.875
+outlineColor: 666664FF
+weapons: [
+  {
+    bullet: {
+      type: LaserBulletType
+      damage: 6
+      speed: 0
+      lifetime: 15
+      width: 6
+      height: 76
+      colors: [ 0CC95BFF, 0AAB4DFF, 0FFF73FF ]
+    }
+    rotate: true
+    name: chargew
+    reload: 48
+    x: 0
+    y: -2
+    mirror: false
+  }
+  {
+    bullet: {
+      type: LaserBulletType
+      damage: 6
+      speed: 0
+      lifetime: 15
+      width: 3
+      colors: [ 0CC95BFF, 0AAB4DFF, 0FFF73FF ]
+    }
+    rotate: true
+    name: chargew
+    reload: 48
+    x: 0
+    y: 3
+    mirror: false
+  }
+]
+abilities: [
+  {
+  type: EnergyFieldAbility
+  color: 0CC95BFF
+  effectRadius: 1
+  sectorRad: 0.18
+  sectors: 3
+  maxTargets: 5
+  }
+  {
+  type: RepairFieldAbility
+  }
+]

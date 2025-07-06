@@ -1,0 +1,31 @@
+type: HeaterGenerator
+name: Small Solar Heater Panel
+description: Produces small amounts of heat and power passively. 
+size: 1
+category: crafting
+research: {
+  parent: core-fire
+  /*objectives: [
+    {
+      type: SectorComplete
+      preset: sector name
+    }
+  ]*/
+}
+requirements: [ a-a-01-quartz/6, a-a-02-onyx/3 ]
+powerProduction: 0.25
+generateEffect: none
+heatOutput: 0.25
+researchCostMultiplier: 1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+      heatColor: 641616A6
+    }
+  ]
+}

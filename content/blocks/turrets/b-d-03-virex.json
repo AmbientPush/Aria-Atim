@@ -1,0 +1,64 @@
+health: 450
+size: 2
+category: turret
+type: PowerTurret
+consumes: { power: 1 }
+hasPower: true
+range: 128
+buildTime: 90
+requirements: [ a-a-01-quartz/20, a-a-02-onyx/15, a-a-04-gold/5 ]
+shootY: 0
+shoot: { firstShotDelay: 30, shots: 2, shotDelay: 10 }
+shootType: {
+  type: LaserBulletType
+  colors: [FFEC80, FFE240, FFD900]
+  length: 128
+  width: 3
+  damage: 15
+  pierce: true
+  pierceBuilding: false
+  pierceCap: 3
+  buildingDamageMultiplier: 0.5
+  shootEffect: {
+    type: MultiEffect,
+    effects: [
+      {
+        type: WaveEffect
+        colorFrom: FFD700
+        colorTo: B86914
+        sizeFrom: 1
+        sizeTo: 20
+        lifetime: 50
+      }
+      {
+        type: ParticleEffect
+        region: aria-atim-star
+        spin: 4
+        sizeFrom: 3
+        sizeTo: 0
+        lightFrom: FFD700
+        colorTo: D4A017
+        cone: 70
+        useRotation: true
+        offset: 45
+        particles: 3
+      }
+      {
+        type: ParticleEffect
+        region: aria-atim-star
+        spin: -4
+        sizeFrom: 3
+        sizeTo: 0
+        lightFrom: FFD700
+        colorTo: D4A017
+        cone: 70
+        useRotation: true
+        offset: 45
+        particles: 3
+      }
+    ]
+  }
+}
+
+parent: b-f-01-halo
+alwaysUnlocked: true

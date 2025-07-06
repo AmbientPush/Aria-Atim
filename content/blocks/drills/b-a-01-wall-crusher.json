@@ -1,0 +1,20 @@
+name: Ion Bore
+description: "Mines Quartz from walls. Can be boosted by the use of Hydrogen."
+type: beamDrill
+size: 2
+tier: 1
+itemCapacity: 10
+drillTime: 90
+drawMineItem: false
+consumes: {
+  liquid: {
+    liquid: a-c-01-hydrogen
+    amount: 0.03333333
+    optional: true
+    booster: true
+    boostAmount: 2.5
+  }
+}
+requirements: [ a-a-01-quartz/10 ]
+category: production
+research: b-f-01-halo

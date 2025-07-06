@@ -1,0 +1,10 @@
+type: item
+name: Ferruginous Quartz
+flammability: 0
+explosiveness: 0.05
+radioactivity: 0
+charge: 0.05
+hardness: 3
+color: FF6969
+alwaysUnlocked: false
+research: a-a-03-ice

@@ -1,0 +1,54 @@
+type: ItemTurret
+category: turret
+name: Piercer
+size: 2
+health: 500
+range: 120
+ammoPerShot: 2
+inaccuracy: 5
+shoot: { shots: 3, shotDelay: 7, firstShotDelay: 20, barrels: 1, type: Burst
+}
+xRand: 0
+shootSound: shootSmall
+requirements: [ a-a-01-quartz/20, a-a-02-onyx/10 ]
+moveWhileCharging: true
+ammoTypes: {
+  a-a-01-quartz: {
+    type: BasicBulletType
+    pierceCap: 2
+    pierce: true
+    pierceBuilding: true
+    speed: 6
+    lifetime: 20
+    damage: 14
+    width: 4
+    height: 8
+    frontColor: FFFFFFAA
+    backColor: AAAAAAAA
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    collidesTiles: true
+    hitEffect: pointHit
+    ammoMultiplier: 2
+    displayAmmoMultiplier: true
+  }
+  a-a-02-onyx: {
+    type: BasicBulletType
+    pierceCap: 3
+    pierce: true
+    pierceBuilding: true
+    speed: 6
+    lifetime: 20
+    damage: 12
+    width: 4
+    height: 8
+    frontColor: 58D68DAA
+    backColor: 1E8449AA
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    collidesTiles: true
+    hitEffect: pointHit
+    ammoMultiplier: 2
+    displayAmmoMultiplier: true
+  }
+}

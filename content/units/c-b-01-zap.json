@@ -1,0 +1,56 @@
+name: Zap
+type: mech
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+hovering: true
+hoverable: true
+omniMovement: true
+health: 400
+armor: 2
+hitSize: 7
+speed: 1.5
+outlineColor: 666664FF
+weapons: [
+  {
+    type: RepairBeamWeapon
+    name: healwsmall
+    damage: 0
+    range: 360
+    repairSpeed: 1.666666666666666
+    speed: 0
+    lifetime: 0
+    reload: 0
+    x: 0
+    y: 0
+    shootX: 0
+    shootY: 1.5
+    mirror: false
+  }
+  {
+    y: 0
+    x: 1.75
+    mirror: false
+    reload: 45
+    bullet: {
+      type: LightningBulletType
+      lifetime: 0
+      speed: 0
+      damage: 5
+      status: electrified
+      statusDuration: 30
+      hittable: false
+      healPercent: 4
+      healAmount: 2
+      hitUnder: true
+      healColor: 0CC95BFF
+      lightningColor: 0CC95BFF
+      lightning: 3
+      lightningLength: 3.2
+      lightningLengthRand: 0
+      lightningDamage: 5
+      lightningCone: 0
+      lightningAngle: 0
+    }
+  }
+]

@@ -1,0 +1,59 @@
+localizedName: Velmirah
+
+mesh: {
+  type: SunMesh
+  divisions: 3
+  octaves: 4
+  persistence: 0.6
+  scl: 1
+  pow: 1
+  mag: 0.5
+  colorScale: 1
+  colors: [
+    ffe06f
+    ffe790
+    ffedae
+    fff8c8
+    ffe53b
+  ]
+}
+
+
+hasAtmosphere: false
+bloom: true
+orbitSpacing: 100
+solarSystem: velmirah
+parent: sun
+orbitRadius: 12000
+drawOrbit: false
+
+
+
+iconColor: ffe06f
+
+
+
+
+
+description: Long before time was counted, Velmirah ignited in the endless dark - not born, but awakened. It is said that from its divine fire, the first breaths of light and matter were cast into the void, shaping the sacred worlds that orbit in perfect harmony. To gaze upon Velmirah is to glimpse the will of creation itself - blinding, beautiful, and infinite./n/nPriests of the Celestial Path call it The Eye of God, believing that its pulse is the heartbeat of the universe. Its warmth gives life, but its wrath can unmake stars. No soul dares fly too close, for Velmirah chooses who may bask in its presence… and who must burn.
+
+
+orbitRadius: 100
+orbitOffset: 200
+
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+
+accessible: true
+visible: true
+alwaysUnlocked: true
+
+updateLighting: true
+bloom: true
+
+parent: sun
+solarSystem: velmirah
+tidalLock: false
+orbitSpacing: 10000

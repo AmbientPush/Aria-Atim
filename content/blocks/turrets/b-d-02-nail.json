@@ -1,0 +1,56 @@
+type: ItemTurret
+category: turret
+name: Nail
+size: 2
+health: 500
+range: 224
+reload: 150
+ammoPerShot: 1
+inaccuracy: 0
+xRand: 0
+shootSound: smallCannon
+requirements: [ a-a-01-quartz/25, a-a-02-onyx/15 ]
+moveWhileCharging: true
+ammoTypes: {
+  a-a-01-quartz: {
+    type: ArtilleryBulletType
+    homingPower: 0.2
+    homingRange: 24
+    speed: 12
+    lifetime: 18.6666667
+    damage: 14
+    width: 4
+    height: 8
+    frontColor: FFFFFFAA
+    backColor: AAAAAAAA
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    collidesTiles: true
+    hitEffect: pointHit
+    ammoMultiplier: 2
+    displayAmmoMultiplier: true
+    trailLength: 4
+  }
+  a-a-02-onyx: {
+    type: ArtilleryBulletType
+    homingPower: 0.3
+    homingRange: 40
+    speed: 12
+    lifetime: 18.6666667
+    damage: 20
+    width: 4
+    height: 8
+    frontColor: 58D68DAA
+    backColor: 1E8449AA
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    collidesTiles: true
+    hitEffect: pointHit
+    ammoMultiplier: 2
+    displayAmmoMultiplier: true
+    trailLength: 4
+  }
+}
+drawer: {
+ type: DrawTurret
+}

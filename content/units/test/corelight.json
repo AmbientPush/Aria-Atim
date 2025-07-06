@@ -1,0 +1,41 @@
+{
+  "type": "flying",
+  "name": "[orange]Light",
+  "description": "Fires a miniaturized laser beam at nearby targets.",
+  "speed": 4,
+  "research": "b-f-01-halo",
+  "flying": true,
+  "health": 150,
+  "armor": 1,
+  "engineOffset": 6,
+  engineSize: 2
+  "accel": 0.5,
+  "rotateSpeed": 6,
+  recoil: 3
+  "weapons": [
+    {
+      "name": "Laser beam",
+      "reload": 45,
+      "shootSound": "laser",
+      "mirror": true,
+      "alternate": true, 
+      "x": 3.5,
+      "y": 2,
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 30,
+        "width": 15,
+        "length": 180,
+        "pierce": true
+        "pierceCap": 3
+        "shootEffect": "shockwave",
+        "colors": [
+          "ec7458",
+          "ff9c5a",
+          "ffffff"
+        ]
+      }
+    }
+  ],
+  "hitSize": 6
+}

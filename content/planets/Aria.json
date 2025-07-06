@@ -1,0 +1,81 @@
+generator: "PlanetGenerator"
+description: We have found out that the planet is under attack from Atim, defend, claim back and attack. 
+mesh: [
+    {
+    //aquabiome
+    type: NoiseMesh
+    planet: Aria
+    divisions: 5
+    seed: 1
+    radius: 0.9
+    color1: 235A57
+    color2: 2A7667
+    octaves: 3.5
+    persistence: 1.1
+    }
+    {
+    //cobaltbiome
+    type: NoiseMesh
+    planet: Aria
+    divisions: 5
+    seed: 1
+    radius: 0.92
+    color1: 252D40
+    color2: 384D6C
+    octaves: 3
+    persistence: 0.5
+    mag: 1.8
+    scl: 7
+    }
+]
+cloudMesh: [
+   {
+   type: HexSkyMesh
+   planet: Aria
+   speed: 0.8
+   radius: 0.042
+   divisions: 6
+   color: E2EFFC60
+   octaves: 3
+   persistence: 0.3
+   scl: 0.78
+   thresh: 0.45
+  }
+]
+radius: 1.2
+startSector: 0
+sectorSize: 2
+
+orbitRadius: 76
+orbitOffset: 102
+
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+
+hasAtmosphere: true
+
+iconColor: B1D0F8
+
+accessible: true
+visible: true
+alwaysUnlocked: true
+
+updateLighting: false
+bloom: false
+
+clearSectorOnLose: true
+prebuildBase: true
+defaultCore: b-f-01-halo
+coreDestroyClear: true
+parent: velmirah
+solarSystem: sun
+tidalLock: true
+orbitSpacing: 1
+
+
+launchCandidates: []
+itemWhitelist: [
+  copper
+]

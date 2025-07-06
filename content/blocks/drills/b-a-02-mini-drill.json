@@ -1,0 +1,20 @@
+name: Mini Drill
+description: A small drill for tighter spaces.
+size: 1
+tier: 1
+itemCapacity: 4
+drillTime: 120
+drawMineItem: true
+consumes: {
+  liquid: {
+    liquid: a-b-01-water
+    amount: 0.01111111
+    optional: true
+    booster: true
+    boostAmount: 1.5
+  }
+}
+requirements: [ a-a-01-quartz/4 ]
+category: production
+type: Drill
+research: b-a-03-pressure-drill

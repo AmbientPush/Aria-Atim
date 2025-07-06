@@ -1,0 +1,11 @@
+type: item
+name: Onyx
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 1
+color: A7E6C1
+//color: 50A040
+alwaysUnlocked: true
+research: a-a-01-quartz

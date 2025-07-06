@@ -1,0 +1,10 @@
+type: item
+name: Gold
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0.
+hardness: 2
+color: FFBE00
+alwaysUnlocked: false
+research: a-a-01-quartz

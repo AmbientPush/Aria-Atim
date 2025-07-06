@@ -1,0 +1,10 @@
+type: item
+name: Phase Plate
+flammability: 0.3
+explosiveness: 0.075
+radioactivity: 0.75
+charge: 0.25
+hardness: 0
+color: FFE985
+alwaysUnlocked: false
+research: a-a-07-void-quartz
