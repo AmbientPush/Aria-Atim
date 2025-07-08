@@ -1,10 +1,9 @@
-type: item
-name: Quartz
+//name: Quartz
 flammability: 0
 explosiveness: 0.05
 radioactivity: 0
 charge: 0.05
 hardness: 1
-color: F5F5F5
+color: F2F1ECFF //C7C6C2FF, 999894FF
 alwaysUnlocked: true
 research: b-f-01-halo
