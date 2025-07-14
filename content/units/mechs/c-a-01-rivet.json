@@ -12,7 +12,7 @@ outlineColor: 393D40FF
 weapons: [
   {
   name: c-a-01-rivet-gun
-  x: 0
+  x: 5
   y: 0
   shootX: 4.25
   shootY: 5.875
