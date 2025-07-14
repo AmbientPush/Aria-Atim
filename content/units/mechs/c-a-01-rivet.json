@@ -1,20 +1,21 @@
 name: Rivet
 type: mech
 mechFrontSway: 0.2
-mechSideSway: 0.2
+mechSideSway: 0.3
 mechStride: 0.2
 faceTarget: true
 health: 115
 armor: 0
-hitSize: 5.1875
+hitSize: 10.375
+speed: 0.5
 outlineColor: 393D40FF
 weapons: [
   {
   name: c-a-01-rivet-gun
   x: 0
   y: 0
-  shootX: 2.125
-  shootY: 2.9375
+  shootX: 4.25
+  shootY: 5.875
   mirror: true
   shoot: {
     type: ShootPattern
