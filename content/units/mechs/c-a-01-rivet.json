@@ -1,8 +1,8 @@
 name: Rivet
 type: mech
-mechFrontSway: 0.2
-mechSideSway: 0.3
-mechStride: 0.2
+mechFrontSway: 0.8
+mechSideSway: 0.6
+mechStride: 1
 faceTarget: true
 health: 115
 armor: 0
@@ -25,7 +25,7 @@ weapons: [
   top: false
   rotate: false
   reload: 60
-  recoil: 1
+  recoil: 0.75
   shootSound: pew
     bullet: {
       type: BasicBulletType
