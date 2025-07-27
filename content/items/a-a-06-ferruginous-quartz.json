@@ -1,10 +1,8 @@
-type: item
-name: Ferruginous Quartz
 flammability: 0
 explosiveness: 0.05
 radioactivity: 0
 charge: 0.05
 hardness: 3
-color: FF6969
+color: FF8547FF //E36729FF, DE4B00FF
 alwaysUnlocked: false
-research: a-a-03-ice
+research: a-a-04-gold
