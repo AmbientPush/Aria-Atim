@@ -1,10 +1,8 @@
-type: item
-name: Void Quartz
 flammability: 0
 explosiveness: 0.2
 radioactivity: 0.5
 charge: 0
 hardness: 4
-color: A20000
+color: CC2929FF //A62121FF, 801919FF
 alwaysUnlocked: false
 research: a-a-06-steel
