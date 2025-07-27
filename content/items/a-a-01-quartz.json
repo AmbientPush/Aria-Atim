@@ -5,5 +5,5 @@ radioactivity: 0
 charge: 0.05
 hardness: 1
 color: F2F1ECFF //C7C6C2FF, 999894FF
-alwaysUnlocked: true
+alwaysUnlocked: false
 research: b-f-01-halo
