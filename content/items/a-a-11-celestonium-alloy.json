@@ -1,10 +1,8 @@
-type: item
-name: Celestonium Alloy
 flammability: 0.05
 explosiveness: 0.25
-radioactivity: 0.95
+radioactivity: 1
 charge: 1.5
 hardness: 0
-color: 7C4DFF
+color: B388FFFF //7C4DFFFF, 5E35B1FF
 alwaysUnlocked: false
 research: a-a-09-stelar-alloy
