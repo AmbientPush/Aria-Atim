@@ -14,11 +14,11 @@ mechStride: 0
 abilities: [
   {
   type: EnergyFieldAbility
-  color: 84F491
-  effectRadius: 4
+  color: E1D200
+  effectRadius: 3
   sectorRad: 0.18
   sectors: 3
-  maxTargets: 5
+  maxTargets: 9
   layer: 59
   }
 ]
