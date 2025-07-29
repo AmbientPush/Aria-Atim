@@ -2,10 +2,10 @@ type: mech
 health: 250
 armor: 2
 hitSize: 6
-accel: 0.4
-drag: 0.4
+accel: 0.2
+drag: 0.2
 speed: 2
-rotateSpeed: 0.5
+rotateSpeed: 3
 hovering: true
 hoverable: true
 mechFrontSway: 0
@@ -15,7 +15,7 @@ abilities: [
   {
   type: EnergyFieldAbility
   color: 84F491
-  effectRadius: 2
+  effectRadius: 4
   sectorRad: 0.18
   sectors: 3
   maxTargets: 5
