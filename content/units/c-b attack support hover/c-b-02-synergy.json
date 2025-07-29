@@ -13,12 +13,15 @@ mechSideSway: 0
 mechStride: 0
 abilities: [
   {
-  type: EnergyFieldAbility
-  color: E1D200
-  effectRadius: 3
-  sectorRad: 0.18
-  sectors: 3
-  maxTargets: 9
-  layer: 59
+    type: EnergyFieldAbility
+    color: E1D200
+    effectRadius: 3
+    sectorRad: 0.18
+    sectors: 3
+    maxTargets: 9
+    layer: 59
+    healPercent: 2.5
+    reload: 130
+    range: 80
   }
 ]
