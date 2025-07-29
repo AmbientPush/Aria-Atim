@@ -24,4 +24,10 @@ abilities: [
     reload: 130
     range: 80
   }
+  {
+    type: RepairHealAbility
+    reload: 25
+    range: 96
+    amount: 0.03333333
+  }
 ]
