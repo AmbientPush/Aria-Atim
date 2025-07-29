@@ -28,6 +28,6 @@ abilities: [
     type: RepairFieldAbility
     reload: 25
     range: 96
-    amount: 0.3333333333
+    amount: 3.33333333333
   }
 ]
