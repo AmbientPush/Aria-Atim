@@ -1,7 +1,7 @@
 type: mech
 health: 250
 armor: 2
-hitSize: 17.5
+hitSize: 15.75
 accel: 0.2
 drag: 0.2
 speed: 2
