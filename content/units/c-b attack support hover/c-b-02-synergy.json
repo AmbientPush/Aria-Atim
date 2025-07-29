@@ -5,7 +5,7 @@ hitSize: 6
 accel: 0.2
 drag: 0.2
 speed: 2
-rotateSpeed: 3
+rotateSpeed: 5
 hovering: true
 hoverable: true
 mechFrontSway: 0
