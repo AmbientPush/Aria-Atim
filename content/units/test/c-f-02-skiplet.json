@@ -1,0 +1,34 @@
+type: tether
+health: 200
+flying: true
+lowAltitude: false
+engineOffset: 6
+engineSize: 3
+accel: 0.1
+drag: 0.02
+speed: 2
+armor: 1
+hitsize: 1
+itemCapacity: 90
+rotateSpeed: 5
+Controller: CargoAI
+outlineColor: 333332FF
+allowedInPayloads: false
+logicControllable: false
+playerControllable: false
+abilities: [
+  {
+    type: StatusFieldAbility
+    effect: fast
+    duration: 30
+    reload: 120
+    range: 1
+    color: CC2929FF
+    activeEffect: {
+      type: WrapEffect
+      color: CC2929FF
+      offset: 45
+      effect: dynamicSpikes
+    }
+  }
+]
