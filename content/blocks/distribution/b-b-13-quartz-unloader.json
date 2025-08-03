@@ -1,0 +1,8 @@
+type: Unloader
+health: 150
+speed: 5
+requirements: [ a-a-01-quartz/25, a-a-02-onyx/30 ]
+researchCost: [ a-a-01-quartz/150, a-a-02-onyx/175 ]
+research: b-b-04-quartz-router
+category: distribution
+isDuct: true

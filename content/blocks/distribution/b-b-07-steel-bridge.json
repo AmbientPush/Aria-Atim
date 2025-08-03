@@ -1,0 +1,8 @@
+type: DuctBridge
+health: 150
+range: 8
+transportTime: 3
+requirements: [ a-a-04-gold/6, a-a-07-steel/4 ]
+researchCost: [ a-a-04-gold/30, a-a-07-steel/25 ]
+research: b-b-06-steel-junction
+isDuct: true

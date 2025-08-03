@@ -1,0 +1,10 @@
+type: Duct
+category: distribution
+isDuct: true
+speed: 5
+health: 45
+bridgeReplacement: b-b-03-quartz-bridge
+junctionReplacement: b-b-02-quartz-junction
+requirements: [ a-a-01-quartz/1 ]
+researchCost: [ a-a-01-quartz/10 ]
+research: b-f-01-halo

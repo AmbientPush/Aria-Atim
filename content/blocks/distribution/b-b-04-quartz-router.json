@@ -1,0 +1,8 @@
+type: Router
+speed: 5
+category: distribution
+isDuct: true
+research: b-b-03-quartz-bridge
+health: 45
+requirements: [ a-a-01-quartz/3 ]
+researchCost: [ a-a-01-quartz/25 ]

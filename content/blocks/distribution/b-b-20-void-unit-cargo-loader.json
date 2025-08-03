@@ -1,0 +1,13 @@
+type: UnitCargoLoader
+size: 3
+health: 350
+itemCapacity: 120
+unitBuildTime: 300
+polySides: 4
+polyRotateSpeed: 3
+polyStroke: 2
+unitType: c-f-02-skiplet
+category: distribution
+requirements: [ a-a-04-gold/25, a-a-07-steel/50, a-a-08-void-quartz/75, a-a-09-phase-plate/25 ]
+research: b-b-16-unit-cargo-unload-point
+researchCost: [ a-a-04-gold/125, a-a-07-steel/250, a-a-08-void-quartz/450, a-a-09-phase-plate/125 ]

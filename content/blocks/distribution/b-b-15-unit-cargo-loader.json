@@ -1,0 +1,13 @@
+type: UnitCargoLoader
+size: 3
+health: 350
+itemCapacity: 120
+unitBuildTime: 300
+polySides: 4
+polyRotateSpeed: 3
+polyStroke: 2
+unitType: c-f-01-portan
+category: distribution
+requirements: [ a-a-01-quartz/25, a-a-04-gold/50, a-a-07-steel/25 ]
+research: b-b-05-steel-tube
+researchCost: [ a-a-01-quartz/125, a-a-04-gold/250, a-a-07-steel/100 ]

@@ -1,0 +1,8 @@
+type: Junction
+speed: 3
+category: distribution
+isDuct: true
+health: 45
+requirements: [ a-a-07-steel/2 ]
+researchCost: [ a-a-07-steel/15 ]
+research: b-b-05-steel-tube

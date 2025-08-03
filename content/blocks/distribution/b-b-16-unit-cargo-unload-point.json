@@ -1,0 +1,8 @@
+type: UnitCargoUnloadPoint
+health: 450
+itemCapacity: 120
+size: 2
+category: distribution
+research: b-b-15-cargo-loader
+requirements: [ a-a-01-quartz/25, a-a-02-onyx/15, a-a-04-gold/5 ]
+alwaysUnlocked: true

@@ -1,0 +1,8 @@
+type: DirectionalUnloader
+speed: 3
+category: distribution
+isDuct: true
+research: b-b-13-quartz-unloader
+health: 230
+requirements: [ a-a-04-gold/15, a-a-07-steel/20 ]
+researchCost: [ a-a-04-gold/175, a-a-07-steel/250 ]

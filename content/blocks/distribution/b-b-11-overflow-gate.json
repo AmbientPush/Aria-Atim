@@ -1,0 +1,8 @@
+type: OverflowGate
+health: 45
+category: distribution
+isDuct: true
+requirements: [ a-a-01-quartz/6, a-a-02-onyx/5 ]
+researchCost: [ a-a-01-quartz/30, a-a-02-onyx/25 ]
+research: b-b-09-sorter
+invert: false
