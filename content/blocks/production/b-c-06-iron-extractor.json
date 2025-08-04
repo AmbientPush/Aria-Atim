@@ -10,6 +10,6 @@ hasItems: true
 consumes: { power: 0.5, items: [ a-a-06-ferruginous-quartz/2 ] }
 outputLiquids: [ a-b-02-liquid-iron/0.05, a-c-02-oxygen/0.03333333 ]
 liquidOutputDirections: [ 1, 3 ]
-outputItem: a-a-01-quartz
+outputItem: a-a-01-quartz/1
 itemCapacity: 10
 liquidCapacity: 20
