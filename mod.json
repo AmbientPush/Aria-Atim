@@ -5,8 +5,9 @@ author:
 Main developer: Ambient Push
 Contribiutors: Blehhhh cat
 '''
-description: "Description in progress. [red[]]The mod is heavily work in progress."
-version: v4
+description: "Description in progress. [red[]]The mod is heavily work in progress./n[[]]If you wish to help me or give me any feedback you can do it in my Discord server (https://discord.gg/8hGwztCrZu) or by directly messaging me on discord (ambientpush)"
+version: v5
 minGameVersion: 143.1
 hidden: false
 repo: AmbientPush/Aria-Atim
+subtitle: "Mod heavily in progress"
