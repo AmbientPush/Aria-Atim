@@ -1,7 +1,7 @@
 type: MassDriver
 size: 1
-itemCapacity: 20
-reload: 120
+itemCapacity: 10
+reload: 30
 range: 120
 consumes: { power: 0.333333333 }
 category: distribution
