@@ -2,7 +2,9 @@ type: HeatConductor
 size: 2
 category: distribution
 research: 
-requirements: [ a-a-01-quartz/8, a-a-02-onyx/"12" ]
+requirements: [
+  a-a-01-quartz/8, a-a-02-onyx/12
+]
 drawer: {
   type: DrawMulti
   drawers: [
