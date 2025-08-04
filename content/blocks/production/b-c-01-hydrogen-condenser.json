@@ -1,11 +1,8 @@
 type: GenericCrafter
-name: Hydrogen Condensator
-description:
 size: 2
 category: crafting
 hasLiquids: true
 hasPower: true
-squareSprite: true
 liquidCapacity: 40
 craftTime: 60
 outputLiquid: a-c-01-hydrogen/0.05
