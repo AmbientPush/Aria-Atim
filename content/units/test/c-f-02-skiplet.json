@@ -27,7 +27,7 @@ abilities: [
     activeEffect: {
       type: WrapEffect
       color: CC2929FF
-      offset: 45
+      rotation: 30
       effect: dynamicSpikes
     }
   }
