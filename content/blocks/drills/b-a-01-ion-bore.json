@@ -1,5 +1,3 @@
-name: Ion Bore
-description: "Mines Quartz from walls. Can be boosted by the use of Hydrogen."
 type: beamDrill
 size: 2
 tier: 1
