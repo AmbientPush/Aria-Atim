@@ -1,7 +1,5 @@
-name: Pressure Drill
-description: A drill for mining ground ores.
 size: 2
-tier: 1.5
+tier: 2
 itemCapacity: 10
 drillTime: 60
 drawMineItem: true
