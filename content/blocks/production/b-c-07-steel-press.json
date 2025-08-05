@@ -9,3 +9,4 @@ consumes: { power: 1, liquids: [ a-b-02-liquid-iron/0.05 ], items: [ a-a-05-carb
 outputItem: a-a-07-steel/1
 itemCapacity: 10
 liquidCapacity: 20
+category: crafting
