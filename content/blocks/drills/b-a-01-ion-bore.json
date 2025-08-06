@@ -12,6 +12,7 @@ consumes: {
     booster: true
     boostAmount: 2.5
   }
+  power: 0.25
 }
 requirements: [ a-a-01-quartz/10 ]
 category: production
