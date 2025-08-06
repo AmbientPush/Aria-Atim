@@ -1,6 +1,4 @@
 type: HeaterGenerator
-name: Small Solar Panel
-description: Produces small amounts of heat and power passively.
 size: 2
 research: b-f-01-halo
 category: power
