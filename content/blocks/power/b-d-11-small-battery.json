@@ -1,0 +1,9 @@
+type: Battery
+size: 1
+consumes: { powerBuffered: 5000 }
+category: power
+requirements: [ a-a-01-quartz/15, a-a-02-onyx/10 ]
+research: b-d-01-small-power-node
+researchCost: [ a-a-01-quartz/75, a-a-02-onyx/50 ]
+emptyLightColor: C2B82D00
+fullLightColor: E1D200FF

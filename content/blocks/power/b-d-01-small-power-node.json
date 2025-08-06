@@ -1,0 +1,10 @@
+type: PowerNode
+size: 1
+maxNodes: 10
+laserRange: 10
+laserColor1: E1D200FF
+laserColor2: C2B82DFF
+category: power
+requirements: [ a-a-01-quartz/2, a-a-02-onyx/2 ]
+research: b-d-21-small-solar-panel
+researchCost: [ a-a-01-quartz/15, a-a-02-onyx/15 ]

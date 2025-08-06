@@ -1,0 +1,10 @@
+type: PowerNode
+size: 3
+maxNodes: 3
+laserRange: 50
+laserColor1: E1D200FF
+laserColor2: C2B82DFF
+category: power
+requirements: [ a-a-01-quartz/40, a-a-02-onyx/25 , a-a-03-ice/35 , a-a-04-gold/30, a-a-07-steel/50 ]
+research: b-d-02-big-power-node
+researchCost: [ a-a-01-quartz/200, a-a-02-onyx/250 , a-a-03-ice/300 , a-a-04-gold/150, a-a-07-steel/250 ]

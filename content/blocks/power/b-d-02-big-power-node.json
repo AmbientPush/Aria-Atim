@@ -1,0 +1,10 @@
+type: PowerNode
+size: 2
+maxNodes: 15
+laserRange: 16
+laserColor1: E1D200FF
+laserColor2: C2B82DFF
+category: power
+requirements: [ a-a-01-quartz/12, a-a-02-onyx/6 ]
+research: b-d-01-small-power-node
+researchCost: [ a-a-01-quartz/75, a-a-02-onyx/30 ]
