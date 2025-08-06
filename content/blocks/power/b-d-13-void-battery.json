@@ -3,7 +3,7 @@ size: 4
 consumes: { powerBuffered: 250000 }
 category: power
 requirements: [ a-a-01-quartz/125, a-a-02-onyx/75, a-a-03-ice/150, a-a-04-gold/50, a-a-07-steel/75, a-a-08-void-quartz/50 ]
-research: b-d-01-small-power-node
+research: b-d-12-big-battery
 researchCost: [ a-a-01-quartz/450, a-a-02-onyx/125, a-a-03-ice/750, a-a-04-gold/250, a-a-07-steel/350, a-a-08-void-quartz/250 ]
 emptyLightColor: 80191900
 fullLightColor: CC2929FF
