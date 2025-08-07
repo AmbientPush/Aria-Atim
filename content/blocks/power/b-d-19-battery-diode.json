@@ -3,3 +3,4 @@ size: 1
 requirements: [ a-a-01-quartz/8, a-a-02-onyx/6 ]
 research: b-d-11-small-battery
 researchCost: [ a-a-01-quartz/50, a-a-02-onyx/30 ]
+category: power
