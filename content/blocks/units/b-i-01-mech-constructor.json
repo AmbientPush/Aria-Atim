@@ -1,0 +1,15 @@
+type: UnitFactory
+health: 175
+size: 3
+consumes: { power: 2.5 }
+plans: [
+  {
+    unit: c-a-01-rivet
+    time: 300
+    requirements: [ a-a-01-quartz/20, a-a-04-gold/5 ]
+  }
+]
+requirements: [ a-a-01-quartz/85, a-a-02-onyx/45,gold/20 ]
+category: units
+research: b-f-01-halo
+researchCost: [ a-a-01-quartz/200 ]
