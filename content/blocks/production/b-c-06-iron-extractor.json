@@ -15,3 +15,5 @@ itemCapacity: 10
 liquidCapacity: 20
 heatRequirement: 6
 maxEfficiency: 2
+dumpExtraLiquid: true
+rotate: true
