@@ -5,7 +5,7 @@ requirements: [ a-a-01-quartz/120, a-a-02-onyx/60,a-a-04-gold/30 ]
 hasLiquids: true
 hasPower: true
 hasItems: true
-consumes: { power: 1, liquids: [ a-b-02-liquid-iron/0.05 ], items: [ a-a-05-carbon/1 ] }
+consumes: { power: 1, liquids: [ a-b-02-liquid-iron/0.05 ], items: [ a-a-05-carbon/2 ] }
 outputItem: a-a-07-steel/1
 itemCapacity: 10
 liquidCapacity: 20
