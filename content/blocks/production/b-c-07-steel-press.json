@@ -1,4 +1,4 @@
-type: GenericCrafter
+type: HeatProducer
 size: 3
 research: b-c-06-iron-extractor
 requirements: [ a-a-01-quartz/120, a-a-02-onyx/60,a-a-04-gold/30 ]
@@ -10,3 +10,5 @@ outputItem: a-a-07-steel/1
 itemCapacity: 10
 liquidCapacity: 20
 category: crafting
+heatOutput: 6
+sideHeat: [ 1 ]
