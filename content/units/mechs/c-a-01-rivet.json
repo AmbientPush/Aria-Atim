@@ -2,7 +2,7 @@ type: mech
 speed: 0.75
 drag: 0.1
 accel: 0.1
-hitSize: 9.875
+hitSize: 10.875
 weapons: [
   {
     shoot: {
