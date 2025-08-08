@@ -1,44 +1,28 @@
-name: Rivet
 type: mech
-mechFrontSway: 0.8
-mechSideSway: 0.6
-mechStride: 1
-faceTarget: true
-health: 115
-armor: 0
-hitSize: 10.375
-speed: 0.5
-outlineColor: 393D40FF
+speed: 0.75
+drag: 0.1
+accel: 0.1
 weapons: [
   {
-  name: c-a-01-rivet-gun
-  x: 5.5
-  y: 0
-  shootX: 0
-  shootY: 5
-  mirror: true
-  shoot: {
-    type: ShootPattern
-    shots: 2
-    shotDelay: 5
-  }
-  top: false
-  rotate: false
-  reload: 60
-  recoil: 0.75
-  shootSound: pew
+    shoot: {
+      type: ShootPattern
+      shots: 3
+      shotDelay: 5
+      firstShotDelay: 10
+    }
+    y: 0
+    x: 0
+    shootX: 6
+    shootY: 4
+    mirror: true
+    reload: 45
+    name: c-a-01-rivet-weapon
+    top: false
     bullet: {
       type: BasicBulletType
-      speed: 5
-      lifetime: 30
-      damage: 15
-      width: 7
-      height: 10
-      frontColor: b2afb3
-      backColor: d5d2d6
-      shootEffect: shootSmall
-      smokeEffect: shootSmallSmoke
-      hitEffect: pointHit
+      lifetime: 45
+      speed: 3
+      damage: 7
     }
   }
 ]
