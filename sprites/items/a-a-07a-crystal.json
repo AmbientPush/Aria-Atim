@@ -1,0 +1,8 @@
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+hardness: 3
+color: 8000FFFF //6000BFFF, 46008CFF
+alwaysUnlocked: false
+research: a-a-07-steel
