@@ -1,4 +1,4 @@
-type: ShallowLiquid
+type: Floor
 variants: 4
 drownTime: 0
 speedMultiplier: 0.9
