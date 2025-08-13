@@ -1,11 +1,10 @@
 type: ShallowLiquid
 variants: 4
 drownTime: 0
-speedMultiplier: 0.8
+speedMultiplier: 0.9
 liquidDrop: a-b-01-water
 isLiquid: true
 cacheLayer: water
 supportsOverlay: true
 shallow: true
-name: Quartz Floor - Shallow Water
-overlayAlpha: 0.5
+overlayAlpha: 0.1
