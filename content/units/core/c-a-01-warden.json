@@ -1,0 +1,94 @@
+type: payload
+flying: true
+lowAltitude: true
+speed: 3.5
+accel: 0.1
+drag: 0.04
+flying: true
+health: 250
+hitSize: 19.5
+armor: 3
+itemCapacity: 60
+outlineColor: 333332FF
+faceTarget: true
+controller: BuilderAI
+mineTier: 1
+mineSpeed: 5
+buildSpeed: 2.5
+buildBeamOffset: 9.75
+isEnemy: false
+coreUnitDock: true
+payloadCapacity: 96
+engineOffset: 7
+engineSize: 2.5
+engines: [
+  {
+    x: 5.5
+    y: -4
+    rotation: -90
+    radius: 2
+  }
+  {
+    x: -5.5
+    y: -4
+    rotation: -90
+    radius: 2
+  }
+]
+
+weapons: [
+  {
+    shoot: {
+      type: ShootPattern
+      shots: 2
+      shotDelay: 5
+      firstShotDelay: 20
+    }
+    y: 0
+    x: 0
+    shootX: 6
+    shootY: 6
+    mirror: true
+    reload: 45
+    name: c-a-01-warden-weapon
+    top: false
+    bullet: {
+      type: BasicBulletType
+      lifetime: 35
+      speed: 5
+      damage: 11
+      fragBullets: 3
+      fragRandomSpread: 0
+      fragSpread: 25
+      fragAngle: 0
+      fragBullet: {
+        type: LaserBulletType
+        pierceArmor: true
+        damage: 5
+        despawnSound: none
+        hitSound: spark
+        width: 6
+        length: 36
+        colors: [D4816BFF, EAB678FF, FFD37FFF]
+      }
+    }
+  }
+]
+
+abilities: [
+  {
+    type: energyFieldAbility
+    range: 90
+    reload: 60
+    healPercent: 5
+    damage: 40
+    status: none
+    sectors: 8
+    rotateSpeed: 2.5
+    effectRadius: 2
+    sectorRad: 0.1
+    blinkScl: 10
+    blinkSize: 0.5
+    color: FFD37FFF
+  }
+]
