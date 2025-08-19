@@ -3,6 +3,7 @@ speed: 0.75
 drag: 0.1
 accel: 0.1
 hitSize: 10.875
+outlineColor: 292C2EFF
 weapons: [
   {
     shoot: {
@@ -17,7 +18,7 @@ weapons: [
     shootY: 4
     mirror: true
     reload: 45
-    name: c-a-01-rivet-weapon
+    name: c-b-01-mech-weapon
     top: false
     bullet: {
       type: BasicBulletType
