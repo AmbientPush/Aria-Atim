@@ -6,7 +6,7 @@ unitBuildTime: 300
 polySides: 4
 polyRotateSpeed: 3
 polyStroke: 2
-unitType: c-f-01-portan
+unitType: a-c-f-01-portan
 category: distribution
 requirements: [ a-a-a-01-quartz/25, a-a-a-04-gold/50, a-a-a-07-steel/25 ]
 research: b-b-05-steel-tube
