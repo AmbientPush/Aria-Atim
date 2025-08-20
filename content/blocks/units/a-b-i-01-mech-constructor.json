@@ -4,7 +4,7 @@ size: 3
 consumes: { power: 2.5 }
 plans: [
   {
-    unit: c-b-01-mech
+    unit: a-c-b-01-mech
     time: 300
     requirements: [ a-a-a-01-quartz/20, a-a-a-04-gold/5 ]
   }
