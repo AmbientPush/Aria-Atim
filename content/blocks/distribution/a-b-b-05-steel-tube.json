@@ -1,11 +1,11 @@
 type: Duct
 category: distribution
 isDuct: true
-research: b-b-01-quartz-tube
+research: a-b-b-01-quartz-tube
 speed: 3
 health: 150
-bridgeReplacement: b-b-07-steel-bridge
-junctionReplacement: b-b-06-steel-junction
+bridgeReplacement: a-b-b-07-steel-bridge
+junctionReplacement: a-b-b-06-steel-junction
 requirements: [ a-a-a-07-steel/1 ]
 researchCost: [ a-a-a-07-steel/10 ]
 armored: true
