@@ -2,7 +2,7 @@ flammability: 0
 explosiveness: 0
 radioactivity: 0
 charge: 0
-hardness: 2
-color: FFE300FF //FFBE00FF, FF9F00FF
+hardness: 1
+color: 0FFF73FF //0CC95BFF, 0AAB4DFF
 alwaysUnlocked: false
-research: a-a-01-quartz
+research: a-a-a-01-quartz
