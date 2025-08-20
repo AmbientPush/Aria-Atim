@@ -2,7 +2,7 @@
 speed: 0.05
 itemCapacity: 20
 recharge: 3
-research: b-b-05-steel-tube
+research: a-b-b-05-steel-tube
 health: 150
-requirements: [ a-a-a-08-void-quartz/1, a-a-a-09-phase-plate/2 ]
-researchCost: [ a-a-a-08-void-quartz/10, a-a-a-09-phase-plate/20 ]
+requirements: [ a-a-a-10-void-quartz/1, a-a-a-11-phase-plate/2 ]
+researchCost: [ a-a-a-10-void-quartz/10, a-a-a-11-phase-plate/20 ]
