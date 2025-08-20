@@ -6,7 +6,7 @@ consumes: { power: 1 }
 hasPower: true
 range: 128
 buildTime: 90
-requirements: [ a-a-01-quartz/20, a-a-02-onyx/15, a-a-04-gold/5 ]
+requirements: [ a-a-a-01-quartz/20, a-a-a-02-onyx/15, a-a-a-04-gold/5 ]
 shootY: 0
 shoot: { firstShotDelay: 30, shots: 2, shotDelay: 10 }
 shootType: {
@@ -60,5 +60,5 @@ shootType: {
   }
 }
 
-parent: b-f-01-halo
+parent: a-b-f-01-halo
 alwaysUnlocked: true

@@ -9,10 +9,10 @@ ammoPerShot: 1
 inaccuracy: 0
 xRand: 0
 shootSound: smallCannon
-requirements: [ a-a-01-quartz/25, a-a-02-onyx/15 ]
+requirements: [ a-a-a-01-quartz/25, a-a-a-02-onyx/15 ]
 moveWhileCharging: true
 ammoTypes: {
-  a-a-01-quartz: {
+  a-a-a-01-quartz: {
     type: ArtilleryBulletType
     homingPower: 0.2
     homingRange: 24
@@ -31,7 +31,7 @@ ammoTypes: {
     displayAmmoMultiplier: true
     trailLength: 4
   }
-  a-a-02-onyx: {
+  a-a-a-02-onyx: {
     type: ArtilleryBulletType
     homingPower: 0.3
     homingRange: 40

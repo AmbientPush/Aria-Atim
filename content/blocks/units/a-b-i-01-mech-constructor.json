@@ -6,10 +6,10 @@ plans: [
   {
     unit: c-b-01-mech
     time: 300
-    requirements: [ a-a-01-quartz/20, a-a-04-gold/5 ]
+    requirements: [ a-a-a-01-quartz/20, a-a-a-04-gold/5 ]
   }
 ]
-requirements: [ a-a-01-quartz/85, a-a-02-onyx/45,a-a-04-gold/20 ]
+requirements: [ a-a-a-01-quartz/85, a-a-a-02-onyx/45, a-a-a-04-gold/20 ]
 category: units
-research: b-f-01-halo
-researchCost: [ a-a-01-quartz/200 ]
+research: a-b-f-01-halo
+researchCost: [ a-a-a-01-quartz/200 ]

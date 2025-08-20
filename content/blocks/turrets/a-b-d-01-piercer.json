@@ -10,10 +10,10 @@ shoot: { shots: 3, shotDelay: 7, firstShotDelay: 20, barrels: 1, type: Burst
 }
 xRand: 0
 shootSound: shootSmall
-requirements: [ a-a-01-quartz/20, a-a-02-onyx/10 ]
+requirements: [ a-a-a-01-quartz/20, a-a-a-02-onyx/10 ]
 moveWhileCharging: true
 ammoTypes: {
-  a-a-01-quartz: {
+  a-a-a-01-quartz: {
     type: BasicBulletType
     pierceCap: 2
     pierce: true
@@ -32,7 +32,7 @@ ammoTypes: {
     ammoMultiplier: 2
     displayAmmoMultiplier: true
   }
-  a-a-02-onyx: {
+  a-a-a-02-onyx: {
     type: BasicBulletType
     pierceCap: 3
     pierce: true

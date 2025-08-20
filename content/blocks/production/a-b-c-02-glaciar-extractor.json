@@ -5,6 +5,6 @@ hasLiquids: true
 hasPower: true
 liquidCapacity: 40
 craftTime: 90
-outputLiquid: a-c-01-hydrogen/0.15
-consumes: { power: 1.5, items: [ a-a-03-ice/2 ] }
-requirements: [ a-a-01-quartz/80, a-a-02-onyx/40, a-a-03-ice/60, a-a-04-gold/25]
+outputLiquid: a-a-c-01-hydrogen/0.15
+consumes: { power: 1.5, items: [ a-a-a-03-ice/2 ] }
+requirements: [ a-a-a-01-quartz/80, a-a-a-02-onyx/40, a-a-a-03-ice/60, a-a-a-04-gold/25]

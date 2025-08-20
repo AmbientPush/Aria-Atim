@@ -1,5 +1,5 @@
 generator: "PlanetGenerator"
-description: We have found out that the planet is under attack from Atim, defend, claim back and attack. 
+//TODO description: We have found out that the planet is under attack from Atim, defend, claim back and attack. 
 mesh: [
     {
     //aquabiome
@@ -67,7 +67,7 @@ bloom: false
 
 clearSectorOnLose: true
 prebuildBase: true
-defaultCore: b-f-01-halo
+defaultCore: a-b-f-01-halo
 coreDestroyClear: true
 parent: velmirah
 solarSystem: sun

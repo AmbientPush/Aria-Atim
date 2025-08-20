@@ -2,15 +2,15 @@ type: HeatCrafter
 size: 2
 category: crafting
 health: 120
-requirements: [ a-a-01-quartz/50, a-a-02-onyx/75 ]
+requirements: [ a-a-a-01-quartz/50, a-a-a-02-onyx/75 ]
 buildTime: 40
 hasLiquids: true
 hasPower: true
 hasItems: true
-consumes: { power: 1, items: [ a-a-06-ferruginous-quartz/2 ] }
-outputLiquids: [ a-b-02-liquid-iron/0.05, a-c-02-oxygen/0.03333333 ]
+consumes: { power: 1, items: [ a-a-a-06-ferruginous-quartz/2 ] }
+outputLiquids: [ a-a-b-02-liquid-iron/0.05, a-a-c-02-oxygen/0.03333333 ]
 liquidOutputDirections: [ 1, 3 ]
-outputItem: a-a-01-quartz/1
+outputItem: a-a-a-01-quartz/1
 itemCapacity: 10
 liquidCapacity: 20
 heatRequirement: 6
