@@ -6,8 +6,8 @@ unitBuildTime: 300
 polySides: 4
 polyRotateSpeed: 3
 polyStroke: 2
-unitType: c-f-02-skiplet
+unitType: a-c-f-02-skiplet
 category: distribution
-requirements: [ a-a-a-04-gold/25, a-a-a-07-steel/50, a-a-a-08-void-quartz/75, a-a-a-09-phase-plate/25 ]
+requirements: [ a-a-a-04-gold/25, a-a-a-07-steel/50, a-a-a-10-void-quartz/75, a-a-a-11-phase-plate/25 ]
 research: b-b-16-unit-cargo-unload-point
-researchCost: [ a-a-a-04-gold/125, a-a-a-07-steel/250, a-a-a-08-void-quartz/450, a-a-a-09-phase-plate/125 ]
+researchCost: [ a-a-a-04-gold/125, a-a-a-07-steel/250, a-a-a-10-void-quartz/450, a-a-a-11-phase-plate/125 ]
