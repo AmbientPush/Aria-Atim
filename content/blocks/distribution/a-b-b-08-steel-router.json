@@ -4,5 +4,5 @@ category: distribution
 isDuct: true
 research: b-b-07-steel-bridge
 health: 130
-requirements: [ a-a-07-steel/3 ]
-researchCost: [ a-a-07-steel/25 ]
+requirements: [ a-a-a-07-steel/3 ]
+researchCost: [ a-a-a-07-steel/25 ]

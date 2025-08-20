@@ -6,5 +6,5 @@ range: 600
 consumes: { power: 2 }
 category: distribution
 research: b-b-22-medium-mass-driver
-requirements: [ a-a-01-quartz/150, a-a-02-onyx/125, a-a-04-gold/50, a-a-07-steel/20, a-a-08-void-quartz/30, a-a-09-phase-plate/15 ]
-researchCost: [ a-a-01-quartz/500, a-a-02-onyx/400, a-a-04-gold/150, a-a-07-steel/100, a-a-08-void-quartz/75, a-a-09-phase-plate/50 ]
+requirements: [ a-a-a-01-quartz/150, a-a-a-02-onyx/125, a-a-a-04-gold/50, a-a-a-07-steel/20, a-a-a-08-void-quartz/30, a-a-a-09-phase-plate/15 ]
+researchCost: [ a-a-a-01-quartz/500, a-a-a-02-onyx/400, a-a-a-04-gold/150, a-a-a-07-steel/100, a-a-a-08-void-quartz/75, a-a-a-09-phase-plate/50 ]

@@ -5,7 +5,7 @@ health: 2500
 size: 3
 itemCapacity: 2500
 unitCapModifier: 16
-requirements: [ a-a-01-quartz/600, a-a-02-onyx/400 ]
+requirements: [ a-a-a-01-quartz/600, a-a-a-02-onyx/400 ]
 category: effect
 research: {
   root: true

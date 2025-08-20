@@ -2,7 +2,7 @@ type: Floor
 variants: 4
 drownTime: 0
 speedMultiplier: 0.9
-liquidDrop: a-b-01-water
+liquidDrop: a-a-b-01-water
 isLiquid: true
 cacheLayer: water
 supportsOverlay: true

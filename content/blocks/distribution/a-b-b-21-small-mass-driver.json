@@ -6,5 +6,5 @@ range: 120
 consumes: { power: 0.333333333 }
 category: distribution
 research: b-b-13-quartz-unloader
-requirements: [ a-a-01-quartz/15, a-a-02-onyx/10 ]
-researchCost: [ a-a-01-quartz/75, a-a-02-onyx/50 ]
+requirements: [ a-a-a-01-quartz/15, a-a-a-02-onyx/10 ]
+researchCost: [ a-a-a-01-quartz/75, a-a-a-02-onyx/50 ]

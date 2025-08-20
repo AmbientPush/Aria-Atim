@@ -1,8 +1,8 @@
 type: HeaterGenerator
 size: 2
-research: b-f-01-halo
+research: a-b-f-01-halo
 category: power
-requirements: [ a-a-01-quartz/6, a-a-02-onyx/3 ]
+requirements: [ a-a-a-01-quartz/6, a-a-a-02-onyx/3 ]
 powerProduction: 0.25
 generateEffect: none
 heatOutput: 2

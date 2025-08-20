@@ -1,7 +1,7 @@
 type: StackRouter
 speed: 20
 health: 45
-requirements: [ a-a-08-void-quartz/3, a-a-09-phase-plate/5 ]
-researchCost: [ a-a-08-void-quartz/25, a-a-09-phase-plate/50 ]
+requirements: [ a-a-a-08-void-quartz/3, a-a-a-09-phase-plate/5 ]
+researchCost: [ a-a-a-08-void-quartz/25, a-a-a-09-phase-plate/50 ]
 research: b-b-18-phase-bridge
 itemCapacity: 20

@@ -3,6 +3,6 @@ speed: 5
 category: distribution
 isDuct: true
 health: 45
-requirements: [ a-a-01-quartz/2 ]
-researchCost: [ a-a-01-quartz/15 ]
+requirements: [ a-a-a-01-quartz/2 ]
+researchCost: [ a-a-a-01-quartz/15 ]
 research: b-b-01-quartz-tube

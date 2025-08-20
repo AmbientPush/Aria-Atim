@@ -5,16 +5,16 @@ drillTime: 60
 drawMineItem: true
 consumes: {
   liquid: {
-    liquid: a-c-01-hydrogen
+    liquid: a-a-c-01-hydrogen
     amount: 0.033333333
     optional: true
     booster: true
     boostAmount: 1.75
   }
 }
-requirements: [ a-a-01-quartz/12, a-a-02-onyx/6 ]
+requirements: [ a-a-a-01-quartz/12, a-a-a-02-onyx/6 ]
 category: production
 type: Drill
 research: {
-parent: b-a-01-wall-crusher
+parent: a-b-a-01-ion-bore
 }
