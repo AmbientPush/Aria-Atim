@@ -1,0 +1,16 @@
+type: Liquid
+//TODO name: Plasma
+//TODO description: "Superheated ionized matter, unstable and radiating intense energy. Dangerous to store but unmatched in power when weaponized or used in high-energy fabrication."
+color: 75F9FF
+gas: true
+
+explosiveness: 2
+flammability: 0.5
+heatCapacity: 0
+viscosity: 0.01
+temperature: 2.5
+blockReactive: false
+
+research: {
+parent: a-a-c-01-hydrogen
+}

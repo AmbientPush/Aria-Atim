@@ -1,0 +1,15 @@
+type: Liquid
+//TODO name: Holy Vitae
+//TODO description: "A radiant, silvery liquid said to be the lifeblood of the divine. Infused with celestial energy, it pulses with a soft inner light and heals all it touches. Once used only in sacred rituals, it now fuels advanced constructs and sanctified machinery. Rare, potent, and fiercely protected."
+color: FFFFFF
+
+explosiveness: 0.33
+flammability: 0.2
+heatCapacity: 0
+viscosity: 0.25
+temperature: 0.75
+blockReactive: false
+
+research: { 
+parent: a-a-b-01-water 
+}

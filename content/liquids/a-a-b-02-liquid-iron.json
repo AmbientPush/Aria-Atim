@@ -1,0 +1,15 @@
+type: Liquid
+//TODO name: Liquid Iron
+//TODO description: "Molten and dense, this searing metal is the lifeblood of heavy industry. Piped directly from smelters, it's essential for forging alloys and structural components under high pressure and heat."
+color: F9F37C
+
+explosiveness: 0.05
+flammability: 0
+heatCapacity: 0
+viscosity: 0.9
+temperature: 1
+blockReactive: false
+
+research: {
+parent: a-a-c-01-hydrogen
+}
