@@ -2,7 +2,7 @@ type: MassDriver
 size: 2
 itemCapacity: 40
 reload: 120
-range: 200
+range: 201
 category: distribution
 research: b-b-21-small-mass-driver
 requirements: [ a-a-a-01-quartz/75, a-a-a-02-onyx/50, a-a-a-04-gold/50, a-a-a-07-steel/20 ]

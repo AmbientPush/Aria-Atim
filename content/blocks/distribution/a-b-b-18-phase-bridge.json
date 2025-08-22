@@ -6,3 +6,4 @@ researchCost: [ a-a-a-10-void-quartz/50, a-a-a-11-phase-plate/75 ]
 research: b-b-17-phase-conveyor
 range: 11
 unloadable: true
+itemCapacity: 15

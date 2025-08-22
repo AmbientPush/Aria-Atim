@@ -2,8 +2,7 @@ type: MassDriver
 size: 1
 itemCapacity: 10
 reload: 30
-range: 120
-consumes: { power: 0.333333333 }
+range: 121
 category: distribution
 research: b-b-13-quartz-unloader
 requirements: [ a-a-a-01-quartz/15, a-a-a-02-onyx/10 ]

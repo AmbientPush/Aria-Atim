@@ -2,7 +2,7 @@ type: MassDriver
 size: 3
 itemCapacity: 180
 reload: 240
-range: 600
+range: 601
 consumes: { power: 2 }
 category: distribution
 research: b-b-22-medium-mass-driver
