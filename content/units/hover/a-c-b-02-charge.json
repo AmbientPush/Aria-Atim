@@ -23,7 +23,7 @@ weapons: [
       colors: [ 0CC95BFF, 0AAB4DFF, 0FFF73FF ]
     }
     rotate: true
-    name: chargew
+    name: a-c-b-02-charge-weapon
     reload: 48
     x: 0
     y: -2
@@ -39,7 +39,7 @@ weapons: [
       colors: [ 0CC95BFF, 0AAB4DFF, 0FFF73FF ]
     }
     rotate: true
-    name: chargew
+    name: a-c-b-02-charge-weapon
     reload: 48
     x: 0
     y: 3

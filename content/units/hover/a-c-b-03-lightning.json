@@ -51,7 +51,7 @@ parts: [
 weapons: [
   {
     x: 3.25, y: -4.5
-    name: lightningw
+    name: a-c-b-03-lightning-weapon
     reload: 15
     rotate: true
     mirror: true

@@ -14,7 +14,7 @@ outlineColor: 666664FF
 weapons: [
   {
     type: RepairBeamWeapon
-    name: healwsmall
+    name: a-c-b-01-zap-weapon
     damage: 0
     range: 360
     repairSpeed: 1.666666666666666

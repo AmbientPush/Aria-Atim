@@ -18,7 +18,7 @@ weapons: [
     shootY: 4
     mirror: true
     reload: 45
-    name: c-b-01-mech-weapon
+    name: a-c-b-01-mech-weapon
     top: false
     bullet: {
       type: BasicBulletType
