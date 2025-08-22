@@ -21,20 +21,7 @@ coreUnitDock: true
 payloadCapacity: 96
 engineOffset: 7
 engineSize: 2.5
-engines: [
-  {
-    x: 9
-    y: -9
-    rotation: -45
-    radius: 2
-  }
-  {
-    x: -9
-    y: -9
-    rotation: -135
-    radius: 2
-  }
-]
+trailLength: 5
 
 weapons: [
   {
@@ -93,9 +80,28 @@ abilities: [
   }
 ]
 
-/*parts: [
-  
-
-] //TODO
-
-*/
+parts: [
+  {
+    type: HaloPart
+    color: FFD37FFF
+    colorTo: D4816BFF
+    hollow: true
+    layerOffset: -0.1
+    radius: 15
+    radiusTo: 10
+    mirror: true
+    rotation: 45
+    haloRotation: 90
+    stroke: 3
+    strokeTo: 3
+    haloRadius: 0
+    haloRadiusTo: 6
+    progress: warmup
+    shapes: 1
+    sides: 4
+    x: 0
+    y: 0
+    moveX: 0
+    moveY: 0
+  }
+] //TODO add more effects (the uhh 2 "spikes")
