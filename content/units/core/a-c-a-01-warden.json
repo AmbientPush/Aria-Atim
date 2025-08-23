@@ -104,4 +104,73 @@ parts: [
     moveX: 0
     moveY: 0
   }
-] //TODO add more effects (the uhh 2 "spikes")
+  {
+    type: HaloPart
+    color: FFD37FFF
+    colorTo: D4816BFF
+    hollow: true
+    layerOffset: -0.1
+    radius: 15
+    radiusTo: 10
+    mirror: true
+    rotation: 45
+    haloRotation: 90
+    haloRadius: 0
+    haloRadiusTo: 6
+    progress: warmup
+    shapes: 1
+    x: 0
+    y: 0
+    moveX: 0
+    moveY: 0
+    tri: true
+    triLength: 6
+    triLengthTo: 9
+  }
+  {
+    type: HaloPart
+    color: FFD37FFF
+    colorTo: D4816BFF
+    hollow: true
+    layerOffset: -0.1
+    radius: 3
+    radiusTo: 3
+    mirror: true
+    rotation: 45
+    haloRotation: 90
+    haloRadius: 15
+    haloRadiusTo: 28
+    progress: warmup
+    shapes: 1
+    x: 0
+    y: 0
+    moveX: 0
+    moveY: 0
+    tri: true
+    triLength: 6
+    triLengthTo: 11
+  }
+  {
+    type: HaloPart
+    color: FFD37FFF
+    colorTo: D4816BFF
+    hollow: true
+    layerOffset: -0.1
+    radius: 3
+    radiusTo: 3
+    mirror: true
+    rotation: 45
+    haloRotation: 90
+    haloRadius: -15
+    haloRadiusTo: -28
+    progress: warmup
+    shapes: 1
+    x: 0
+    y: 0
+    moveX: 13
+    moveY: 0
+    tri: true
+    triLength: 12
+    triLengthTo: 12
+  }
+] //TODO get them closer together
