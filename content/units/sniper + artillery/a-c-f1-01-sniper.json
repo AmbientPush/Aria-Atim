@@ -1,4 +1,4 @@
-type: TankUnitType
+type: tank
 speed: 1
 accel: 0.1
 drag: 0.1
@@ -8,7 +8,6 @@ armor: 8
 itemCapacity: 60
 outlineColor: 333332FF //TODO
 faceTarget: false
-constructor: UnitEntity::new
 
 weapons: [
   {
@@ -26,9 +25,10 @@ weapons: [
     reload: 20
     name: a-c-a-01-warden-weapon //TODO
     top: false
+    rotate: true
     bullet: {
       type: BasicBulletType
-      lifetime: 3
+      lifetime: 10
       speed: 20
       damage: 11
       buildingDamageMultiplier: 0.25
@@ -48,7 +48,7 @@ weapons: [
       /*trailEffect: {
         //TODO
       }*/
-      trailInterp: linear 
+      trailInterp: linear
       trailInterval: 6
       trailLength: 6
       trailSpread: 0
