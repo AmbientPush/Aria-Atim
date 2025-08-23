@@ -1,0 +1,57 @@
+type: TankUnitType
+speed: 1
+accel: 0.1
+drag: 0.1
+health: 500
+hitSize: 12
+armor: 8
+itemCapacity: 60
+outlineColor: 333332FF //TODO
+faceTarget: false
+
+weapons: [
+  {
+    shoot: {
+      type: ShootPattern
+      shots: 1
+      shotDelay: 20
+      firstShotDelay: 20
+    }
+    y: 0
+    x: 0
+    shootX: 0 //TODO
+    shootY: 6 //TODO
+    mirror: false //TODO
+    reload: 20
+    name: a-c-a-01-warden-weapon //TODO
+    top: false
+    bullet: {
+      type: BasicBulletType
+      lifetime: 3
+      speed: 20
+      damage: 11
+      buildingDamageMultiplier: 0.25
+      followAimSpeed: 0.1
+      //TODO hitEffect: 
+      hitColor: BF92F9FF
+      makeFire: true
+      pierceArmor: true
+      pierce: true
+      pierceBuilding: false
+      pierceCap: 3
+      pierceDamageFactor: 0.75
+      shieldDamageMultiplier: 0.1
+      //shootEffect: //TODO
+      trailChance: 1
+      trailColor: BF92F9FF
+      /*trailEffect: {
+        //TODO
+      }*/
+      trailInterp: linear 
+      trailInterval: 6
+      trailLength: 6
+      trailSpread: 0
+      trailWidth: 3
+    }
+  }
+]
