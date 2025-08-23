@@ -8,6 +8,7 @@ armor: 8
 itemCapacity: 60
 outlineColor: 333332FF //TODO
 faceTarget: false
+constructor: UnitEntity::new
 
 weapons: [
   {
