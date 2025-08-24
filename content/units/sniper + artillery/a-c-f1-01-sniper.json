@@ -42,12 +42,25 @@ weapons: [
       pierceCap: 3
       pierceDamageFactor: 0.75
       shieldDamageMultiplier: 0.1
-      //shootEffect: //TODO
+      shootEffect: {
+        type: MultiEffect
+        effects: [
+            {
+                type: RadialEffect
+                effect: railShoot
+                lengthOffset: 4
+                rotationSpacing: 90
+                amount: 4
+                followParent: false
+            }
+            {
+                type: WaveEffect
+            }
+        ]
+      }
       trailChance: 1
       trailColor: BF92F9FF
-      /*trailEffect: {
-        //TODO
-      }*/
+      trailEffect: { disperseTrail } //TODO
       trailInterp: linear
       trailInterval: 6
       trailLength: 6
