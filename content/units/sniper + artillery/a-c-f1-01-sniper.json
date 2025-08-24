@@ -45,22 +45,22 @@ weapons: [
       shootEffect: {
         type: MultiEffect
         effects: [
-            {
-                type: RadialEffect
-                effect: railShoot
-                lengthOffset: 4
-                rotationSpacing: 90
-                amount: 4
-                followParent: false
-            }
-            {
-                type: WaveEffect
-            }
+          {
+            type: RadialEffect
+            effect: railShoot
+            lengthOffset: 4
+            rotationSpacing: 90
+            amount: 4
+            followParent: false
+          }
+          {
+            type: WaveEffect
+          }
         ]
       }
       trailChance: 1
       trailColor: BF92F9FF
-      trailEffect: { disperseTrail } //TODO
+      trailEffect: "disperseTrail" //TODO
       trailInterp: linear
       trailInterval: 6
       trailLength: 6
