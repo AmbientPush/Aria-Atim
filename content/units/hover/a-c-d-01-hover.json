@@ -36,7 +36,7 @@ weapons: [
       type: ShootPattern
       shots: 2
       shotDelay: 10
-      firstShotDelay: 40
+      firstShotDelay: 0
     }
     reload: 40
     bullet: {
