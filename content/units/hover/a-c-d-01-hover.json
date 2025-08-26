@@ -13,7 +13,7 @@ outlineColor: 666664FF
 weapons: [
   {
     type: RepairBeamWeapon
-    name: a-c-b-01-hover-heal
+    name: a-c-d-01-hover-heal
     damage: 0
     range: 360
     repairSpeed: 1.666666666666666
@@ -32,6 +32,12 @@ weapons: [
     shootY: 3
     x: 0
     y: 0
+    shoot: {
+      type: ShootPattern
+      shots: 2
+      shotDelay: 10
+      firstShotDelay: 40
+    }
     bullet: {
       type: LaserBulletType
       pierceArmor: true
