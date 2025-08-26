@@ -1,0 +1,57 @@
+type: mech
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+hovering: true
+hoverable: true
+omniMovement: true
+health: 400
+armor: 2
+hitSize: 7
+speed: 1.5
+outlineColor: 666664FF
+weapons: [
+  {
+    type: RepairBeamWeapon
+    name: a-c-b-01-hover-heal
+    damage: 0
+    range: 360
+    repairSpeed: 1.666666666666666
+    speed: 0
+    lifetime: 0
+    reload: 0
+    x: 0
+    y: 0
+    shootX: 0
+    shootY: 1.5
+    mirror: false
+  }
+  {
+    rotate: false
+    shootX: 0
+    shootY: 3
+    x: 0
+    y: 0
+    bullet: {
+      type: LaserBulletType
+      pierceArmor: true
+      damage: 5
+      despawnSound: none
+      hitSound: spark
+      shootSound: spark
+      status: electrified
+      statusDuration: 180
+      width: 6
+      length: 96
+      colors: [ D1EFFFFF, AECCF4FF, 8CA9E8FF ]
+    }
+  }
+]
+/*abilities:[
+  {
+    type: StatusFieldAbility
+    effect: 
+    
+    duration: 
+  }
+]*/

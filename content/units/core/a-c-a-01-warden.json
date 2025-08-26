@@ -56,7 +56,7 @@ weapons: [
         hitSound: spark
         width: 6
         length: 36
-        colors: [D4816BFF, EAB678FF, FFD37FFF]
+        colors: [ D4816BFF, EAB678FF, FFD37FFF ]
       }
     }
   }
