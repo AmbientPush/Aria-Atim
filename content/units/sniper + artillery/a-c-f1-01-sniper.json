@@ -55,12 +55,23 @@ weapons: [
           }
           {
             type: WaveEffect
+            colorFrom: BF92F9FF
+            colorTo: 665C9F00
+            sizeFrom: 0 
+            sizeTo: 128
+            strokeFrom: 1
+            strokeTo: 2
           }
         ]
       }
       trailChance: 1
       trailColor: BF92F9FF
-      trailEffect: "disperseTrail" //TODO
+      trailEffect: {
+        effect: disperseTrail
+        type: WrapEffect
+        color: BF92F9FF
+        rotWithParent: true
+      } //TODO
       trailInterp: linear
       trailInterval: 6
       trailLength: 6
