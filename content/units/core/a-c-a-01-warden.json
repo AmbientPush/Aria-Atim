@@ -29,7 +29,7 @@ weapons: [
       type: ShootPattern
       shots: 2
       shotDelay: 5
-      firstShotDelay: 20
+      firstShotDelay: 45
     }
     y: 0
     x: 0
