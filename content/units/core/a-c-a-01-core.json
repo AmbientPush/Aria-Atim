@@ -87,7 +87,7 @@ abilities: [
 parts: [
   {
     type: HaloPart
-    color: FFD9DC761FF37FFF
+    color: 9DC761FF
     colorTo: 165944FF
     hollow: true
     layerOffset: -0.1
