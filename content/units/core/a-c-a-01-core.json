@@ -37,7 +37,7 @@ weapons: [
     shootY: 6
     mirror: true
     reload: 45
-    name: a-c-a-01-warden-weapon
+    name: a-c-a-01-core-weapon
     top: false
     bullet: {
       type: BasicBulletType
@@ -59,7 +59,7 @@ weapons: [
         hitSound: spark
         width: 6
         length: 36
-        colors: [ D4816BFF, EAB678FF, FFD37FFF ]
+        colors: [ 165944FF, 4DA140FF, 9DC761FF ]
       }
     }
   }
@@ -79,7 +79,7 @@ abilities: [
     sectorRad: 0.1
     blinkScl: 10
     blinkSize: 0.5
-    color: FFD37FFF
+    color: 9DC761FF
     buildingDamageMultiplier: 0.01
   }
 ]
@@ -87,8 +87,8 @@ abilities: [
 parts: [
   {
     type: HaloPart
-    color: FFD37FFF
-    colorTo: D4816BFF
+    color: FFD9DC761FF37FFF
+    colorTo: 165944FF
     hollow: true
     layerOffset: -0.1
     radius: 15
@@ -110,8 +110,8 @@ parts: [
   }
   {
     type: HaloPart
-    color: FFD37FFF
-    colorTo: D4816BFF
+    color: 9DC761FF
+    colorTo: 165944FF
     hollow: true
     layerOffset: -0.1
     radius: 15
@@ -133,8 +133,8 @@ parts: [
   }
   {
     type: HaloPart
-    color: FFD37FFF
-    colorTo: D4816BFF
+    color: 9DC761FF
+    colorTo: 165944FF
     hollow: true
     layerOffset: -0.1
     radius: 3
@@ -156,8 +156,8 @@ parts: [
   }
   {
     type: HaloPart
-    color: FFD37FFF
-    colorTo: D4816BFF
+    color: 9DC761FF
+    colorTo: 165944FF
     hollow: true
     layerOffset: -0.1
     radius: 3
