@@ -1,4 +1,4 @@
-size: 2
+size: 3
 tier: 2
 itemCapacity: 10
 drillTime: 60
@@ -14,7 +14,10 @@ consumes: {
 }
 requirements: [ a-a-a-01-quartz/12, a-a-a-02-onyx/6 ]
 category: production
-type: Drill
+type: BurstDrill
 research: {
-parent: a-b-a-01-ion-bore
+  parent: a-b-a-01-ion-bore
 }
+arrowSpacing: 6
+arrowOffset: 4
+arrows: 2
