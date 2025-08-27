@@ -1,5 +1,5 @@
-size: 1
-tier: 1
+size: 2
+tier: 2
 itemCapacity: 4
 drillTime: 120
 drawMineItem: true
@@ -15,4 +15,4 @@ consumes: {
 requirements: [ a-a-a-01-quartz/4 ]
 category: production
 type: Drill
-research: a-b-a-03-pressure-drill
+research: a-b-a-01-ion-bore
