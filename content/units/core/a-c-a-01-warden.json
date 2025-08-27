@@ -41,6 +41,7 @@ weapons: [
     top: false
     bullet: {
       type: BasicBulletType
+      buildingDamageMultiplier: 0.01
       lifetime: 35
       speed: 5
       damage: 11
@@ -50,7 +51,9 @@ weapons: [
       fragAngle: 12.5
       fragBullet: {
         type: LaserBulletType
+        buildingDamageMultiplier: 0.01
         pierceArmor: true
+        pierceBuilding: false
         damage: 5
         despawnSound: none
         hitSound: spark
@@ -77,6 +80,7 @@ abilities: [
     blinkScl: 10
     blinkSize: 0.5
     color: FFD37FFF
+    buildingDamageMultiplier: 0.01
   }
 ]
 
