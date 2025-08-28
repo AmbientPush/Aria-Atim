@@ -67,11 +67,23 @@ weapons: [
       trailChance: 1
       trailColor: BF92F9FF
       trailEffect: {
-        effect: disperseTrail
-        type: WrapEffect
-        color: BF92F9FF
-        rotWithParent: true
+        type: MultiEffect
+        effects: [
+          {
+            type: ParticleEffect
+            particles: 2
+            cone: 20
+            baseLenght: 0
+            colorFrom: BF92F9FF
+            colorTo: BF92F9FF
+            line: true
+            useRotation: true
+            length: 20
+            rotWithParent: true
+          }
+        ]
       } //TODO
+      trailRotation: true
       trailInterp: linear
       trailInterval: 6
       trailLength: 6
