@@ -1,0 +1,8 @@
+type: Wall
+size: 2
+armor: 2
+health: 1360
+category: defense
+requirements: [ a-a-a-02-onyx/24 ]
+research: a-b-g-021-onyx-wall
+insulated: true
