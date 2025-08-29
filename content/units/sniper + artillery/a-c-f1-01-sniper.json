@@ -46,12 +46,132 @@ weapons: [
         type: MultiEffect
         effects: [
           {
-            type: RadialEffect
-            effect: railShoot
-            lengthOffset: 4
-            rotationSpacing: 90
-            amount: 4
-            followParent: false
+            type: ParticleEffect
+            region: aria-atim-big-line
+            length: 0
+            baseLenght: 0
+            randLength: 0
+            offsetY: 4
+            cone: 0
+            particles: 1
+            colorFrom: BF92F9FF
+            colorTo: BF92F9FF
+            sizeFrom: 0
+            sizeTo: 32
+            lifetime: 10
+          }
+          {
+            type: ParticleEffect
+            region: aria-atim-big-line
+            length: 0
+            baseLenght: 0
+            randLength: 0
+            offsetY: 4
+            cone: 0
+            particles: 1
+            colorFrom: BF92F9FF
+            colorTo: BF92F9FF
+            sizeFrom: 32
+            sizeTo: 0
+            startDelay: 10
+            lifetime: 10
+          }
+          {
+            type: ParticleEffect
+            region: aria-atim-big-line
+            length: 0
+            baseLenght: 0
+            randLength: 0
+            offsetY: -4
+            cone: 0
+            particles: 1
+            colorFrom: BF92F9FF
+            colorTo: BF92F9FF
+            sizeFrom: 0
+            sizeTo: 32
+            lifetime: 10
+          }
+          {
+            type: ParticleEffect
+            region: aria-atim-big-line
+            length: 0
+            baseLenght: 0
+            randLength: 0
+            offsetY: -4
+            cone: 0
+            particles: 1
+            colorFrom: BF92F9FF
+            colorTo: BF92F9FF
+            sizeFrom: 32
+            sizeTo: 0
+            startDelay: 10
+            lifetime: 10
+          }
+          {
+            type: ParticleEffect
+            region: aria-atim-big-line
+            length: 0
+            baseLenght: 0
+            randLength: 0
+            offsetY: 4
+            cone: 0
+            particles: 1
+            colorFrom: BF92F9FF
+            colorTo: BF92F9FF
+            sizeFrom: 0
+            sizeTo: 32
+            lifetime: 10
+            baseRotation: 90
+          }
+          {
+            type: ParticleEffect
+            region: aria-atim-big-line
+            length: 0
+            baseLenght: 0
+            randLength: 0
+            offsetY: 4
+            cone: 0
+            particles: 1
+            colorFrom: BF92F9FF
+            colorTo: BF92F9FF
+            sizeFrom: 32
+            sizeTo: 0
+            startDelay: 10
+            lifetime: 10
+            baseRotation: 90
+          }
+          {
+            type: ParticleEffect
+            region: aria-atim-big-line
+            length: 0
+            baseLenght: 0
+            randLength: 0
+            offsetY: -4
+            cone: 0
+            particles: 1
+            colorFrom: BF92F9FF
+            colorTo: BF92F9FF
+            sizeFrom: 0
+            sizeTo: 32
+            lifetime: 10
+            baseRotation: 90
+          }
+          {
+            type: ParticleEffect
+            region: aria-atim-big-line
+            length: 0
+            baseLenght: 0
+            randLength: 0
+            offsetY: -4
+            cone: 0
+            particles: 1
+            colorFrom: BF92F9FF
+            colorTo: BF92F9FF
+            sizeFrom: 32
+            sizeTo: 0
+            startDelay: 10
+            lifetime: 10
+            baseRotation: 90
           }
           {
             type: WaveEffect
@@ -82,7 +202,7 @@ weapons: [
             rotWithParent: true
           }
         ]
-      } //TODO
+      }
       trailRotation: true
       trailInterp: linear
       trailInterval: 6
