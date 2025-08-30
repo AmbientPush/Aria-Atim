@@ -6,7 +6,8 @@ health: 500
 range: 120
 ammoPerShot: 2
 inaccuracy: 5
-shoot: { shots: 3, shotDelay: 7, firstShotDelay: 0, barrels: 1, type: Burst }
+shoot: { shots: 3, shotDelay: 7, firstShotDelay: 0, barrels: 1, type: Burst
+}
 xRand: 0
 shootSound: shootSmall
 requirements: [ a-a-a-01-quartz/20, a-a-a-02-onyx/10 ]
