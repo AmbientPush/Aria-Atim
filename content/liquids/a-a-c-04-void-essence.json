@@ -1,4 +1,4 @@
-type: Liquid
+type: CellLiquid
 color: 75F9FF  //TODO
 gas: true
 
@@ -12,3 +12,6 @@ blockReactive: false
 research: {
 parent: a-a-c-01-hydrogen  //TODO
 }
+spreadTarget: a-a-c-03-plasma
+cells: 0
+spreadDamage: 1
