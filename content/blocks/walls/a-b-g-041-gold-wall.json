@@ -1,0 +1,7 @@
+type: Wall
+size: 1
+armor: 5
+health: 520
+category: defense
+requirements: [ a-a-a-04-gold/6 ]
+research: a-b-g-011-quartz-wall
