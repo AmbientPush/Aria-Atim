@@ -1,0 +1,7 @@
+type: Wall
+size: 1
+armor: 6
+health: 750
+category: defense
+requirements: [ a-a-a-07-steel/6 ]
+research: a-b-g-041-gold-wall
