@@ -1,0 +1,14 @@
+type: Liquid
+color: 75F9FF  //TODO
+gas: true
+
+explosiveness: 2.5
+flammability: 0.1
+heatCapacity: 0
+viscosity: 0
+temperature: 2.5
+blockReactive: false
+
+research: {
+parent: a-a-c-01-hydrogen  //TODO
+}
