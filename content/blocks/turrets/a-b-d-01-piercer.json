@@ -34,6 +34,30 @@ ammoTypes: {
     hitEffect: pointHit
     ammoMultiplier: 2
     displayAmmoMultiplier: true
+    shootEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: WaveEffect
+          sizeFrom: 0
+          sizeTo: 160
+        }
+        {
+          type: ParticleEffect
+          colorFrom: FFFFFFFF
+          colorTo: FFFFFF00
+          particles: 6
+          cone: 20
+          randLength: false //TODO check what this does
+          length: 64
+          baseLength: 0
+          sizeFrom: 6
+          sizeTo: 6
+          useRotation: true
+          line: true
+        }
+      ]
+    }
   }
   a-a-a-02-onyx: {
     type: BasicBulletType
