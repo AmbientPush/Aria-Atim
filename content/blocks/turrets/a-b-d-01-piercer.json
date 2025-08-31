@@ -37,17 +37,12 @@ ammoTypes: {
       type: MultiEffect
       effects: [
         {
-          type: WaveEffect
-          sizeFrom: 0
-          sizeTo: 80
-        }
-        {
           type: ParticleEffect
-          colorFrom: E6E1D8FF
+          colorFrom: E6E1D888
           colorTo: E6D0A300
           particles: 4
           cone: 20
-          randLength: false
+          randLength: true
           length: 48
           baseLength: 0
           sizeFrom: 6
