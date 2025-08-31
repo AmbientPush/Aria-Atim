@@ -28,7 +28,6 @@ ammoTypes: {
     height: 8
     frontColor: E6E1D8FF
     backColor: E6D0A3FF
-    shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     collidesTiles: true
     hitEffect: pointHit
@@ -40,16 +39,16 @@ ammoTypes: {
         {
           type: WaveEffect
           sizeFrom: 0
-          sizeTo: 160
+          sizeTo: 80
         }
         {
           type: ParticleEffect
-          colorFrom: FFFFFFFF
-          colorTo: FFFFFF00
-          particles: 6
+          colorFrom: E6E1D8FF
+          colorTo: E6D0A300
+          particles: 4
           cone: 20
-          randLength: false //TODO check what this does
-          length: 64
+          randLength: false
+          length: 48
           baseLength: 0
           sizeFrom: 6
           sizeTo: 6
