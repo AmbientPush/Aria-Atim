@@ -12,6 +12,7 @@ researchCost: [ a-a-a-01-quartz/50, a-a-a-02-onyx/30, a-a-a-04-gold/25 ]
 shootY: 0
 shoot: { firstShotDelay: 0, shots: 2, shotDelay: 10 }
 reload: 30
+shootSound: laser
 shootType: {
   type: LaserBulletType
   colors: [FFEC80, FFE240, FFD900]
