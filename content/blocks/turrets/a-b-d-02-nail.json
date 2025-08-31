@@ -1,6 +1,6 @@
 type: ItemTurret
 category: turret
-name: Nail
+//name: Nail //TODO
 size: 2
 health: 500
 range: 224
@@ -23,8 +23,8 @@ ammoTypes: {
     damage: 14
     width: 4
     height: 8
-    frontColor: FFFFFFAA
-    backColor: AAAAAAAA
+    frontColor: E6E1D8FF
+    backColor: E6D0A3FF
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     collidesTiles: true
@@ -42,8 +42,8 @@ ammoTypes: {
     damage: 20
     width: 4
     height: 8
-    frontColor: 58D68DAA
-    backColor: 1E8449AA
+    frontColor: 0FFF73FF
+    backColor: 0AAB4DFF
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     collidesTiles: true
@@ -52,7 +52,29 @@ ammoTypes: {
     displayAmmoMultiplier: true
     trailLength: 4
   }
+  a-a-a-03-ice: {
+    type: ArtilleryBulletType
+    homingPower: 0.3
+    homingRange: 40
+    speed: 12
+    lifetime: 18.6666667
+    damage: 9
+    width: 4
+    height: 8
+    frontColor: F5FBFFFF
+    backColor: C0DAEDFF
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    collidesTiles: true
+    hitEffect: pointHit
+    ammoMultiplier: 2
+    displayAmmoMultiplier: true
+    trailLength: 4
+    reloadMultiplier: 1.5
+  }
 }
+
+
 drawer: {
  type: DrawTurret
 }

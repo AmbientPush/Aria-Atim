@@ -6,7 +6,8 @@ health: 500
 range: 120
 ammoPerShot: 1
 inaccuracy: 5
-shoot: { shots: 3, shotDelay: 7, firstShotDelay: 0, barrels: 1, type: Burst, }
+shoot: { shots: 3, shotDelay: 7, firstShotDelay: 0, barrels: 1, type: Burst
+}
 reload: 14
 xRand: 0
 shootSound: shootSmall
@@ -71,5 +72,6 @@ ammoTypes: {
     hitEffect: pointHit
     ammoMultiplier: 2
     displayAmmoMultiplier: true
+    reloadMultiplier: 1.5
   }
 }
