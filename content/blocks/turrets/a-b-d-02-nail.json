@@ -8,7 +8,7 @@ reload: 150
 ammoPerShot: 1
 inaccuracy: 0
 xRand: 0
-shootSound: cannon
+shootSound: artillery
 requirements: [ a-a-a-01-quartz/25, a-a-a-02-onyx/15 ]
 research: [ parent: a-b-d-01-piercer ]
 researchCost: [ a-a-a-01-quartz/100, a-a-a-02-onyx/30 ]
