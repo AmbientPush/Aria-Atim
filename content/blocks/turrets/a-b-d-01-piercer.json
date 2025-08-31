@@ -8,7 +8,7 @@ ammoPerShot: 1
 inaccuracy: 5
 shoot: { shots: 3, shotDelay: 7, firstShotDelay: 0, barrels: 1, type: Burst
 }
-reload: 14
+reload: 28
 xRand: 0
 shootSound: shootSmall
 requirements: [ a-a-a-01-quartz/20, a-a-a-02-onyx/10 ]
