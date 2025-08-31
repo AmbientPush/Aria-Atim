@@ -10,7 +10,7 @@ shoot: { shots: 3, shotDelay: 7, firstShotDelay: 0, barrels: 1, type: Burst
 }
 reload: 28
 xRand: 0
-shootSound: shootSmall
+shootSound: shootSmall //TODO doesn't work?
 requirements: [ a-a-a-01-quartz/20, a-a-a-02-onyx/10 ]
 research: [ parent: a-b-f-01-halo ]
 researchCost: [ a-a-a-01-quartz/75, a-a-a-02-onyx/25 ]
@@ -65,12 +65,30 @@ ammoTypes: {
     height: 8
     frontColor: 0FFF73FF
     backColor: 0AAB4DFF
-    shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     collidesTiles: true
     hitEffect: pointHit
     ammoMultiplier: 2
     displayAmmoMultiplier: true
+    shootEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          colorFrom: 0FFF7388
+          colorTo: 0AAB4D00
+          particles: 4
+          cone: 20
+          randLength: true
+          length: 48
+          baseLength: 0
+          sizeFrom: 6
+          sizeTo: 6
+          useRotation: true
+          line: true
+        }
+      ]
+    }
   }
   a-a-a-03-ice: {
     type: BasicBulletType
@@ -84,12 +102,30 @@ ammoTypes: {
     height: 8
     frontColor: F5FBFFFF
     backColor: C0DAEDFF
-    shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     collidesTiles: true
     hitEffect: pointHit
     ammoMultiplier: 2
     displayAmmoMultiplier: true
     reloadMultiplier: 1.5
+    shootEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ParticleEffect
+          colorFrom: F5FBFF88
+          colorTo: C0DAED00
+          particles: 4
+          cone: 20
+          randLength: true
+          length: 48
+          baseLength: 0
+          sizeFrom: 6
+          sizeTo: 6
+          useRotation: true
+          line: true
+        }
+      ]
+    }
   }
 }
