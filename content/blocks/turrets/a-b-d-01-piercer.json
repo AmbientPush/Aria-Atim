@@ -10,7 +10,7 @@ shoot: { shots: 3, shotDelay: 7, firstShotDelay: 0, barrels: 1, type: Burst
 }
 reload: 28
 xRand: 0
-shootSound: shootSmall //TODO doesn't work?
+shootSound: pew
 requirements: [ a-a-a-01-quartz/20, a-a-a-02-onyx/10 ]
 research: [ parent: a-b-f-01-halo ]
 researchCost: [ a-a-a-01-quartz/75, a-a-a-02-onyx/25 ]
