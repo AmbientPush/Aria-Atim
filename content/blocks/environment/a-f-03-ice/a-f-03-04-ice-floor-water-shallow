@@ -1,0 +1,11 @@
+type: Floor
+variants: 8
+drownTime: 0
+speedMultiplier: 0.7
+liquidDrop: a-a-b-01-water
+isLiquid: true
+cacheLayer: water
+supportsOverlay: true
+shallow: true
+overlayAlpha: 0.1
+liquidMultiplier: 1
