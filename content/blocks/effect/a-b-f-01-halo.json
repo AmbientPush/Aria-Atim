@@ -1,6 +1,5 @@
 type: CoreBlock
 squareSprite: true
-name: Core: Halo
 health: 2500
 size: 3
 itemCapacity: 2500
@@ -12,3 +11,4 @@ research: {
   planet: Aria
 }
 alwaysUnlocked: true
+unitType: a-c-a-01-core
