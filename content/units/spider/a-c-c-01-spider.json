@@ -1,0 +1,40 @@
+type: legs
+health: 250
+armor: 2
+speed: 0.75
+drag: 0.1
+accel: 0.1
+hitSize: 19.75
+outlineColor: 333332FF
+weapons: [
+  {
+    shoot: {
+      type: ShootPattern
+      shots: 4
+      shotDelay: 5
+      firstShotDelay: 0
+    }
+    y: 0
+    x: 0
+    shootX: 3.5
+    shootY: 4
+    mirror: true
+    reload: 60
+    name: a-c-c-01-spider-weapon
+    outlineColor: 333332FF
+    top: false
+    bullet: {
+      type: BasicBulletType
+      lifetime: 45
+      speed: 3
+      damage: 7
+    }
+  }
+]
+abilities: [
+  {
+    type: RepairFieldAbility
+    range: 64
+    amount: 0.5
+  }
+]
