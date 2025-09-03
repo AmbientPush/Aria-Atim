@@ -1,0 +1,59 @@
+type: mech
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+hovering: true
+hoverable: true
+omniMovement: true
+speed: 3
+drag: 0.9
+accel: 0.5
+outlineColor: 333332FF
+weapons: [
+  {
+    type: Weapon
+    x: 0
+    y: 0
+    shootY: 3
+    mirror: false
+    rotateSpeed: 4
+    rotate: true
+    reload: 40
+    shootCone: 5
+    name: a-c-d-02-hover-weapon
+    outlineColor: 333332FF
+    bullet: {
+      type: LaserBulletType
+      speed: 0
+      damage: 15
+      lifetime: 10
+      length: 160
+      width: 5
+      colors: [ D1EFFFFF, AECCF4FF, 8CA9E8FF ]
+    }
+    shoot: {
+      shots: 2
+      firstShotDelay: 0
+      shotDelay: 5
+    }
+  }
+  {
+    type: Weapon
+    x: 0
+    y: 0
+    shootY: 5
+    mirror: false
+    rotate: false
+    reload: 90
+    shootCone: 5
+    bullet: {
+      type: LaserBulletType
+      speed: 0
+      damage: 30
+      lifetime: 10
+      length: 320
+      width: 10
+      colors: [ D1EFFFFF, AECCF4FF, 8CA9E8FF ]
+    }
+  }
+]
