@@ -22,7 +22,7 @@ payloadCapacity: 96
 engineOffset: 7
 engineSize: 2.5
 trailLength: 5
-
+mineWalls: true
 weapons: [
   {
     shoot: {
