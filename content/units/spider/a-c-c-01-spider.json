@@ -4,7 +4,7 @@ armor: 2
 speed: 0.75
 drag: 0.1
 accel: 0.1
-hitSize: 19.75
+hitSize: 10
 outlineColor: 333332FF
 weapons: [
   {
