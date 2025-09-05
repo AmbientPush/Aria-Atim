@@ -16,7 +16,7 @@ weapons: [
     name: a-c-d-01-hover-heal
     damage: 0
     range: 360
-    repairSpeed: 1.666666666666666
+    repairSpeed: 0.5
     speed: 0
     lifetime: 0
     reload: 0
