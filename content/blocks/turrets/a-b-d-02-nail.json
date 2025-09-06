@@ -28,7 +28,7 @@ ammoTypes: {
     frontColor: E6E1D8FF
     backColor: E6D0A3FF
     smokeEffect: shootSmallSmoke
-//    collidesTiles: true
+    collidesTiles: false
     collidesGround: true
     collides: true
     hitEffect: pointHit
