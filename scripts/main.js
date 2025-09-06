@@ -1,26 +1,26 @@
 SaveFileReader.fallback.putAll(
   //Quartz
-  "a-f-01-13-quartz-wall-ore", "a-f-01-13-quartz-ore-wall",
+  "aria-atim-a-f-01-13-quartz-wall-ore", "aria-atim-a-f-01-13-quartz-ore-wall",
 
   //Carbon
 
   //floora
-  "a-f-06-00-carbon-floora", "a-f-05-01-carbon-floora",
-  "a-f-05-00-carbon-floora", "a-f-05-01-carbon-floora",
+  "aria-atim-a-f-06-00-carbon-floora", "aria-atim-a-f-05-01-carbon-floora",
+  "aria-atim-a-f-05-00-carbon-floora", "aria-atim-a-f-05-01-carbon-floora",
 
   //floorb
-  "a-f-06-01-carbon-floorb", "a-f-05-02-carbon-floorb",
-  "a-f-05-01-carbon-floorb", "a-f-05-02-carbon-floorb",
+  "aria-atim-a-f-06-01-carbon-floorb", "aria-atim-a-f-05-02-carbon-floorb",
+  "aria-atim-a-f-05-01-carbon-floorb", "aria-atim-a-f-05-02-carbon-floorb",
 
   //ore
-  "a-f-06-02-carbon-ore", "a-f-05-11-carbon-ore",
-  "a-f-05-02-carbon-ore", "a-f-05-11-carbon-ore",
+  "aria-atim-a-f-06-02-carbon-ore", "aria-atim-a-f-05-11-carbon-ore",
+  "aria-atim-a-f-05-02-carbon-ore", "aria-atim-a-f-05-11-carbon-ore",
 
   //wall
-  "a-f-06-3-carbon-wall", "a-f-05-12-carbon-wall",
-  "a-f-05-3-carbon-wall", "a-f-05-12-carbon-wall",
+  "aria-atim-a-f-06-3-carbon-wall", "aria-atim-a-f-05-12-carbon-wall",
+  "aria-atim-a-f-05-3-carbon-wall", "aria-atim-a-f-05-12-carbon-wall",
 
   //boulder
-  "a-f-06-4-carbon-boulder", "a-f-05-15-carbon-boulder",
-  "a-f-05-4-carbon-boulder", "a-f-05-15-carbon-boulder",
+  "aria-atim-a-f-06-4-carbon-boulder", "aria-atim-a-f-05-15-carbon-boulder",
+  "aria-atim-a-f-05-4-carbon-boulder", "aria-atim-a-f-05-15-carbon-boulder",
 )
