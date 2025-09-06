@@ -16,11 +16,11 @@ SaveFileReader.fallback.putAll(
   "a-f-06-02-carbon-ore", "a-f-05-11-carbon-ore",
   "a-f-05-02-carbon-ore", "a-f-05-11-carbon-ore",
 
-  //wall  content/blocks/environment/a-f-05-carbon/a-f-05-12-carbon-wall.json
+  //wall
   "a-f-06-3-carbon-wall", "a-f-05-12-carbon-wall",
   "a-f-05-3-carbon-wall", "a-f-05-12-carbon-wall",
 
-  //boulder  content/blocks/environment/a-f-05-carbon/a-f-05-15-carbon-boulder.json
+  //boulder
   "a-f-06-4-carbon-boulder", "a-f-05-15-carbon-boulder",
   "a-f-05-4-carbon-boulder", "a-f-05-15-carbon-boulder",
 )
