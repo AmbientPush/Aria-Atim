@@ -14,3 +14,4 @@ minGameVersion: 143.1
 hidden: false
 repo: AmbientPush/Aria-Atim
 subtitle: "[red[]]Mod heavily in progress"
+hideBrowser: true
