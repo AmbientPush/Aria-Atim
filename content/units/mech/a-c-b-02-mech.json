@@ -1,0 +1,34 @@
+type: mech
+health: 1200
+armor: 6
+speed: 0.6
+drag: 0.09
+accel: 0.09
+hitSize: 24
+outlineColor: 333332FF
+weapons: [
+  {
+    type: Weapon
+    shoot: {
+      type: ShootPattern
+      shots: 2
+      shotDelay: 10
+      firstShotDelay: 0
+    }
+    y: 0
+    x: 0
+    shootX: 11
+    shootY: 7
+    mirror: true
+    reload: 90
+    top: false
+    name: a-c-b-02-mech-weapon
+   layerOffset: -0.0001
+    bullet: {
+      type: BasicBulletType
+      lifetime: 50
+      speed: 3.5
+      damage: 27
+    }
+  }
+]
