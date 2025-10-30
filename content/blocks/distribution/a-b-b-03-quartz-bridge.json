@@ -6,3 +6,4 @@ requirements: [ a-a-a-01-quartz/4, a-a-a-02-onyx/6 ]
 researchCost: [ a-a-a-01-quartz/25, a-a-a-02-onyx/30 ]
 research: b-b-02-quartz-junction
 isDuct: true
+hasPower: false
