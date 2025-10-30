@@ -1,10 +1,12 @@
 size: 3
 tier: 3
-itemCapacity: 10
+itemCapacity: 15
 drillTime: 60
+hardnessDrillMultiplier: 1.5
+liquidBoostIntensity: 1
 drawMineItem: true
 consumes: {
-  liquid: {
+  liquids: {
     liquid: a-a-c-01-hydrogen
     amount: 0.033333333
     optional: true
@@ -12,6 +14,7 @@ consumes: {
     boostAmount: 1.75
   }
 }
+//consumeLiquid:
 requirements: [ a-a-a-01-quartz/12, a-a-a-02-onyx/6 ]
 category: production
 type: BurstDrill
@@ -21,3 +24,11 @@ research: {
 arrowSpacing: 6
 arrowOffset: 4
 arrows: 2
+
+drillMultipliers: {
+  a-a-a-01-quartz: 1
+  a-a-a-02-onyx: 1
+  a-a-a-03-ice: 3
+  a-a-a-04-gold: 0.75
+  a-a-a-05-carbon: 1.5
+}
