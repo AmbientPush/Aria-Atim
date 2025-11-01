@@ -28,7 +28,7 @@ arrowOffset: 4
 arrows: 2
 
 drillMultipliers: {
-  a-a-a-01-quartz: 1
+//  a-a-a-01-quartz: 1
   a-a-a-02-onyx: 1
   a-a-a-03-ice: 3
   a-a-a-04-gold: 0.75

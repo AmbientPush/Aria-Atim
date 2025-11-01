@@ -17,3 +17,7 @@ consumes: {
 requirements: [ a-a-a-01-quartz/10 ]
 category: production
 research: a-b-f-01-halo
+
+drillMultipliers: {
+  a-a-a-01-quartz: 1
+}

@@ -8,3 +8,9 @@ consumes: { power: 1, liquids: [ a-a-c-03-plasma/0.05 ] } //TODO change after ad
 requirements: [ a-a-a-01-quartz/10 ] //TODO
 category: production
 research: a-b-a-01-ion-bore
+
+drillMultipliers: {
+  a-a-a-01-quartz: 2
+  a-a-a-06-ferruginous-quartz: 1.5
+  a-a-a-10-void-quartz: 1
+}
