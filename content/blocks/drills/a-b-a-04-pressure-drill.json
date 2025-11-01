@@ -6,13 +6,15 @@ hardnessDrillMultiplier: 1.5
 liquidBoostIntensity: 1
 drawMineItem: true
 consumes: {
-  liquids: {
-    liquid: a-a-c-01-hydrogen
-    amount: 0.033333333
-    optional: true
-    booster: true
-    boostAmount: 1.75
-  }
+  liquids: [
+    {
+      liquid: a-a-c-01-hydrogen
+      amount: 0.033333333
+      optional: true
+      booster: true
+      boostAmount: 1.75
+    }
+  ]
 }
 //consumeLiquid:
 requirements: [ a-a-a-01-quartz/12, a-a-a-02-onyx/6 ]
