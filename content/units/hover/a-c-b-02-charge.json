@@ -28,6 +28,12 @@ weapons: [
     x: 0
     y: -2
     mirror: false
+    shoot: {
+      type: ShootPattern
+      shots: 1
+      shotDelay: 0
+      firstShotDelay: 24
+    }
   }
   {
     bullet: {
