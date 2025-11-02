@@ -5,13 +5,13 @@ itemCapacity: 10
 drillTime: 90
 drawMineItem: false
 consumes: {
-  liquid: {
-    liquid: a-a-c-01-hydrogen
-    amount: 0.0083333333
+  liquids: [
+    liquids: {
+      a-a-c-01-hydrogen/0.0083333333
+    }
     optional: true
     booster: true
-    boostAmount: 2.5
-  }
+  ]
   power: 0.125
 }
 requirements: [ a-a-a-01-quartz/10 ]

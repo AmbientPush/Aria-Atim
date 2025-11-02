@@ -4,7 +4,16 @@ tier: 5
 itemCapacity: 25
 drillTime: 90
 drawMineItem: false
-consumes: { power: 1, liquids: [ a-a-c-03-plasma/0.05 ] } //TODO change after adding Void Essence?
+consumes: { power: 1
+  liquid: a-a-c-03-plasma/0.05
+  liquids: [
+    liquids: {
+      a-a-c-04-void-essence/0.02
+    }
+    optional: true
+    booster: true
+  ]
+} //TODO change after adding Void Essence?
 requirements: [ a-a-a-01-quartz/10 ] //TODO
 category: production
 research: a-b-a-01-ion-bore
