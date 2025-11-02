@@ -1,7 +1,27 @@
-0X - Aria
-X00 - core
-X01 - drill
-X02 - duct
-X03 - power
-X04 - turret
-X05 - 
+0 - Aria
+
+X00 - resources
+ XX1 - items
+ XX2 - liquids
+ XX3 - gasses
+
+X01 - effect
+ XX0 - core-module
+   X0 - core
+   X1 - storage
+
+ XX1 - aoe-boost //area of effect (shields, overdrive domes)
+   X0 - shield
+   X1 - overdrive-dome
+   X2 - mine //explosive mines on the ground
+X02 - drill
+X03 - distribution
+X04 - power
+X05 - turret
+X06 - wall
+X07 - production
+X08 - liquid
+X09 - unit
+X10 - logic
+X11 - status-effect
+X12 - lore-tablet
