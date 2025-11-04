@@ -1,9 +1,10 @@
 0 - Aria
 
-X00 - resources
- XX1 - items
- XX2 - liquids
- XX3 - gasses
+X00 - resource
+ XX1 - item
+ XX2 - liquid
+ XX3 - gas
+ XX4 - research
 
 X01 - effect
  XX0 - core-module
@@ -11,17 +12,63 @@ X01 - effect
    X1 - storage
 
  XX1 - aoe-boost //area of effect (shields, overdrive domes)
-   X0 - shield
-   X1 - overdrive-dome
-   X2 - mine //explosive mines on the ground
+   X0 - mender
+   X1 - shield
+   X2 - overdrive-dome
+   X3 - mine //explosive mines on the ground
+
 X02 - drill
-X03 - distribution
+ XX0 - classic
+   X0 - wall-drill
+   X1 - floor-drill
+   X2 - deep-drill
+
+ XX1 - other
+   X0 - liquid-extractor
+   X1 - anti-matter-extractor
+
+X03 - item-distribution
+ XX0 - conventional
+ XX1 - mass-driver
+ XX2 - mass
+ XX3 - cargo-drone
+
 X04 - power
 X05 - turret
 X06 - wall
 X07 - production
+ XX0 - simple-production
+ XX1 - advanced-production
+ XX2 - research
+   X0 - analysers
+    X0 - item-analyser
+    X1 - liquid-analyser
+    X2 - gas-analyser
+
+   X1 - labs
+    X0 - item-lab
+    X1 - liquid-lab
+    X2 - gas-lab
+    X3 - multi-lab
+
+   X2 - terrain-scanner
+    
 X08 - liquid
+ XX0 - pump
+ XX1 - liquid-distribution-and-storage
+   X0 - conventional-liquid-distribution
+   X1 - liquid-storage
+   X2 - cargo-drone
+
 X09 - unit
+ XX0 - unit-fabricator
+ XX1 - payload
+   X0 - transport
+   X1 - production
+    X0 - construction
+    X1 - deconstruction
+    X2 - upgrading
+
 X10 - logic
 X11 - status-effect
 X12 - lore-tablet
