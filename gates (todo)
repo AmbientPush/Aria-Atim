@@ -1,10 +1,10 @@
 0 - Aria
 
 X00 - resource
- XX1 - item
- XX2 - liquid
- XX3 - gas
- XX4 - research
+ XX0 - item
+ XX1 - liquid
+ XX2 - gas
+ XX3 - research
 
 X01 - effect
  XX0 - core-module
